@@ -14,6 +14,7 @@
   </paths>
   <objects name="objects">
     <object>objects\obj_testBullet</object>
+    <object>objects\obj_testEnemy</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_minigame_1</room>
