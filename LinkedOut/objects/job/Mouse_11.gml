@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (room != rm_job && mouse_button == mb_left) {
-	room_goto(rm_job);
+if (room != rm_job) {
+	sprite_index = job_icon;
 	window_set_cursor(cr_default);
 }
