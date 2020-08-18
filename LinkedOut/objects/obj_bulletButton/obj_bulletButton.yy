@@ -1,44 +1,44 @@
 {
-    "id": "f5a10a9f-af1a-407e-a0b2-f6a9d7575a91",
+    "id": "ce16dc56-2976-4ddb-a668-05d97ae12797",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_player",
+    "name": "obj_bulletButton",
     "eventList": [
         {
-            "id": "d895a532-ef29-4bbc-bd3a-e3d5d6720f9e",
+            "id": "a14613bb-e602-447b-8e6d-4787cd015f99",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "f5a10a9f-af1a-407e-a0b2-f6a9d7575a91"
+            "enumb": 4,
+            "eventtype": 6,
+            "m_owner": "ce16dc56-2976-4ddb-a668-05d97ae12797"
         },
         {
-            "id": "1ce0a13b-0966-49d2-b1f0-ffd41edc2708",
+            "id": "161be72e-f318-457a-af99-c54661bc757f",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 8,
-            "m_owner": "f5a10a9f-af1a-407e-a0b2-f6a9d7575a91"
+            "enumb": 10,
+            "eventtype": 6,
+            "m_owner": "ce16dc56-2976-4ddb-a668-05d97ae12797"
         },
         {
-            "id": "9060cb6e-b2e2-412e-be3f-fcba479f6359",
+            "id": "998c70fa-d425-46d8-9f38-09e7539b6d23",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "f5a10a9f-af1a-407e-a0b2-f6a9d7575a91"
+            "enumb": 11,
+            "eventtype": 6,
+            "m_owner": "ce16dc56-2976-4ddb-a668-05d97ae12797"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
-    "persistent": false,
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -48,10 +48,8 @@
     "physicsObject": false,
     "physicsRestitution": 0.1,
     "physicsSensor": false,
-    "physicsShape": 0,
-    "physicsShapePoints": [
-        
-    ],
+    "physicsShape": 1,
+    "physicsShapePoints": null,
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
