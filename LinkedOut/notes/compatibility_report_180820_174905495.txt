@@ -1,0 +1,14 @@
+Converting GML script: ${project_dir}\objects\obj_player\Step_0.gml
+Converted string - line 2: 'W' -> "W"
+Converted string - line 3: 'A' -> "A"
+Converted string - line 4: 'S' -> "S"
+Converted string - line 5: 'D' -> "D"
+
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 30
+Added compatibility script 'action/action_kill_object.gml'
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script 'action/__init_action.gml'
+Added compatibility script '__init_global.gml'
+Added compatibility script '__global_object_depths.gml'

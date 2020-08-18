@@ -1,0 +1,2 @@
+attackTimer=0;
+
