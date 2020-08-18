@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "1f15bcb3-82f5-4208-9d2f-ecadbb00bdbe",
+            "Value": {
+                "id": "f29ee3e3-aaa1-4301-afd7-2984099257b1",
+                "resourcePath": "rooms\\rm_msg\\rm_msg.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "246feba9-bb3d-4b33-b1f9-78c3cc97869c",
             "Value": {
                 "id": "6b82e07c-a48f-4614-99e1-4fb6b4a214d8",
@@ -175,6 +183,14 @@
             }
         },
         {
+            "Key": "4f870eba-86a0-4502-a5e7-d68417be6276",
+            "Value": {
+                "id": "f94f4907-8330-41ea-9c59-4f72f7af8549",
+                "resourcePath": "rooms\\rm_job\\rm_job.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "55645e61-6039-4350-89f6-8e26ba81a97a",
             "Value": {
                 "id": "f0951728-b208-4699-a9d4-7be19fc4bce3",
@@ -188,6 +204,14 @@
                 "id": "579a059f-24ba-4604-bdec-69a13962c0ee",
                 "resourcePath": "notes\\compatibility_report_180820_174905495.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "581e7969-af12-4d30-845c-44c32a20556a",
+            "Value": {
+                "id": "66b5d399-6155-46f6-8507-bf969ad96a08",
+                "resourcePath": "views\\581e7969-af12-4d30-845c-44c32a20556a.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "job",
     "eventList": [
-        
+        {
+            "id": "67c369f2-d570-4fa7-a151-c1e7a2e7bf60",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 6,
+            "m_owner": "5e8876ad-fb08-42d6-bbe3-79ef6430a372"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
