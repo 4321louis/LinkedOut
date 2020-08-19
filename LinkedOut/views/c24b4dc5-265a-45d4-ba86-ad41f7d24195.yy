@@ -11,7 +11,7 @@
         "c8de799d-8539-4d66-b760-627860300249"
     ],
     "filterType": "GMObject",
-    "folderName": "Main Game",
+    "folderName": "sidebar",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
