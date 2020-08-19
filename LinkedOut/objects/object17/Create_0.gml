@@ -10,6 +10,8 @@ global.course = 0;
 // 3 -> Fine Arts
 // 4 -> Science
 
+global.motivmax = 100;
+
 // Soft skills
 /* 0 -> People
 1 -> Intuition
@@ -17,8 +19,6 @@ global.course = 0;
 global.soft[0] = 0;
 global.soft[1] = 0;
 global.soft[2] = global.motivmax;
-
-global.motivmax = 100;
 
 // Hard skills
 for (var i = 0; i < 4; i++) {
