@@ -1,8 +1,8 @@
 /// @description draws the line
 // You can write your code in this editor
-boss = instance_find(obj_pancake_boss,0);
-for (i = 1; i < instance_number(obj_pancake_boss); i += 1) {
-	j = instance_find(obj_pancake_boss,i);
+boss = instance_find(obj_testEnemy,0);
+for (i = 1; i < instance_number(obj_testEnemy); i += 1) {
+	j = instance_find(obj_testEnemy,i);
 	if (sqr(j.x-x)+sqr(j.y-y)<sqr(boss.x-x)+sqr(boss.y-y)) boss = j;
 }
 dist =sqrt(sqr(boss.x-x) + sqr(boss.y-y))
