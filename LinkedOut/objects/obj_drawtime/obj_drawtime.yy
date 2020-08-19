@@ -1,18 +1,18 @@
 {
-    "id": "d2f5de91-0079-4ed7-8456-b686f3d29ed3",
+    "id": "10ed7aae-71a9-4332-9491-9cb9eea68e08",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_course_sci",
+    "name": "obj_drawtime",
     "eventList": [
         {
-            "id": "9048d9e4-3a81-4bf5-967e-39ace711d284",
+            "id": "5f780f4d-913f-42fb-898b-4a10aea35d85",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "d2f5de91-0079-4ed7-8456-b686f3d29ed3"
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "10ed7aae-71a9-4332-9491-9cb9eea68e08"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -33,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8e324b31-880e-4469-aee9-fc911614e8db",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

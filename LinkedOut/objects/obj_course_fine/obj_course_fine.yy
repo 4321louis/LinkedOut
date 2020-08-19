@@ -5,12 +5,12 @@
     "name": "obj_course_fine",
     "eventList": [
         {
-            "id": "a88515a0-1119-4c2d-8e0e-79fc47fac634",
+            "id": "657ccae0-7132-4f9a-b9eb-342c5ece8c4d",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "208eaf3a-9664-48c6-ae54-8b867628e4ca"
         }

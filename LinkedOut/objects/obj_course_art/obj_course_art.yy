@@ -5,12 +5,12 @@
     "name": "obj_course_art",
     "eventList": [
         {
-            "id": "d1a9e018-4564-4e17-be19-22a7ef612e15",
+            "id": "c71984cc-17ba-4a12-bcd8-444869d3842c",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 7,
             "eventtype": 6,
             "m_owner": "8473d1c6-1a14-45d3-9938-d93f60e69144"
         }

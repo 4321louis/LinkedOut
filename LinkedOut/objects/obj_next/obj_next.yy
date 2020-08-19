@@ -1,19 +1,10 @@
 {
-    "id": "d2f5de91-0079-4ed7-8456-b686f3d29ed3",
+    "id": "6db48819-2aee-4bae-afc7-a0fabf6cd32e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_course_sci",
+    "name": "obj_next",
     "eventList": [
-        {
-            "id": "9048d9e4-3a81-4bf5-967e-39ace711d284",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 6,
-            "m_owner": "d2f5de91-0079-4ed7-8456-b686f3d29ed3"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "8e324b31-880e-4469-aee9-fc911614e8db",
+    "spriteId": "8ac7638c-5b05-4d88-b20b-fd98fecb3d9e",
     "visible": true
 }
