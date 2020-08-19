@@ -4,30 +4,34 @@
 global.name = "";
 global.uni = "";
 
+// Course
 global.course = 0;
-// 1 -> Arts
-// 2 -> Commerce
-// 3 -> Fine Arts
-// 4 -> Science
 
-global.motivmax = 100;
+global.coursename[0] = "Bachelor of Arts";
+global.coursename[1] = "Bachelor of Commerce";
+global.coursename[2] = "Bachelor of Design";
+global.coursename[3] = "Bachelor of Science";
 
 // Soft skills
-/* 0 -> People
-1 -> Intuition
-2 -> Motivation */
+global.motivmax = 100;
+
 global.soft[0] = 0;
 global.soft[1] = 0;
 global.soft[2] = global.motivmax;
+
+global.softname[0] = "People";
+global.softname[1] = "Intuition";
+global.softname[2] = "Motivation";
 
 // Hard skills
 for (var i = 0; i < 4; i++) {
 	global.hard[i] = 0;
 }
-/*  0 -> Business
- 	1 -> Fine Arts
-	2 -> Politics
-	3 -> Science */
+
+global.hardname[0] = "Politics";
+global.hardname[1] = "Business";
+global.hardname[2] = "Creativity";
+global.hardname[3] = "Science";
 
 // Other stuff
 global.time = 0;
@@ -37,4 +41,10 @@ global.time = 0;
 	3: Yr 1 Summer
 	...
 	11: Yr 3 Summer */
+	
+global.period[0] = "Sem 1";
+global.period[1] = "Winter";
+global.period[2] = "Sem 2";
+global.period[3] = "Summer";
+
 global.connection = 0;
