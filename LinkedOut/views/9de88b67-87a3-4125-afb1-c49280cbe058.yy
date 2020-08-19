@@ -9,7 +9,8 @@
         "b2f01bcc-9855-4fa6-9986-28c08cd19a80",
         "e22c024b-f3fe-4a84-a39c-b4016771e5b7",
         "1a1ba9ad-9507-4f2e-8ca7-ef980cea1c6a",
-        "8fcfe7e2-6748-4a7c-ab62-92def3e4b50f"
+        "8fcfe7e2-6748-4a7c-ab62-92def3e4b50f",
+        "00e3fa61-e920-4a4f-b607-72a6f75ee8ce"
     ],
     "filterType": "GMObject",
     "folderName": "signup",

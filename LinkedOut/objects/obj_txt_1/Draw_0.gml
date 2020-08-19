@@ -7,12 +7,13 @@ draw_sprite(sprite_index, image_index, x, y);
 draw_set_halign(fa_left);
 draw_set_valign(fa_left);
 
-if (txt == "") { 
+if (global.uni == "") { 
+	draw_text(0,0,"help");
 } else {
 	if (blink == false) || (selected == false) {
-		draw_text(x+10, y+5, txt + " ");
+		draw_text(x+10, y+5, global.uni + " ");
 	} else {
-		draw_text(x+10, y+5, txt + "|")
+		draw_text(x+10, y+5, global.uni + "|")
 	}
 }
 

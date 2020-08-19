@@ -2,8 +2,8 @@
 // You can write your code in this editor
 if (selected == true) {
 	if (string_width(keyboard_string) < max_width) {
-		txt = keyboard_string;
+		global.name = keyboard_string;
 	} else {
-		keyboard_string = txt;
+		keyboard_string = global.name;
 	}
 } 

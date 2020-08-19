@@ -6,3 +6,9 @@ draw_set_color(global.textcolour);
 draw_text(240, 190, "Name");
 draw_text(240, 306, "Institution Name");
 draw_text(240, 420, "Course");
+
+for (var i = 0; i < 4; i++) {
+	if (global.course == i) {
+	
+	}
+}

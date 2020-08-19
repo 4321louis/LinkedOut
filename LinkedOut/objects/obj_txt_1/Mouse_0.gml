@@ -4,5 +4,5 @@
 if (can_click == true) {
 	selected = true;
 	obj_txt_2.selected = false;
-	keyboard_string = txt;
+	keyboard_string = global.uni ;
 }
