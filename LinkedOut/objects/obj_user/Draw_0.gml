@@ -8,16 +8,18 @@ draw_text(x,y,global.name);
 
 draw_set_font(fnt_text);
 
-uniinfo = string(global.uni) + " | " + global.coursename[global.course];
+uniinfo = string(global.uni) + " | " + obj_info.course[global.course];
 
-softskills = global.softname[0] + ": " + string(global.soft[0]) + " | " +
-global.softname[1] + ": " + string(global.soft[1]);
 
-hardskills = global.hardname[0] + ": " + string(global.hard[0]) + " | " +
-global.hardname[1] + ": " + string(global.hard[1]) + " | " +
-global.hardname[2] + ": " + string(global.hard[2]) + " | " +
-global.hardname[3] + ": " + string(global.hard[3]);
+softskills = obj_info.soft[0] + ": " + string(global.soft[0]) + " | " +
+obj_info.soft[1] + ": " + string(global.soft[1]);
 
-connec = "Connections: " + string(global.connection);
+hardskills = obj_info.hard[0] + ": " + string(global.hard[0]) + " | " +
+obj_info.hard[1] + ": " + string(global.hard[1]) + " | " +
+obj_info.hard[2] + ": " + string(global.hard[2]) + " | " +
+obj_info.hard[3] + ": " + string(global.hard[3]);
+
+connec = obj_info.soft[3] + ": " + string(global.soft[3]);
+
 
 draw_text(x,y+45,uniinfo + "\n" + softskills + "\n" + hardskills + "\n" + connec);

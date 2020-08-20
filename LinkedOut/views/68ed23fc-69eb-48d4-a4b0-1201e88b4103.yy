@@ -9,7 +9,7 @@
         "e046a35a-6616-418b-a29c-ada72ee26287"
     ],
     "filterType": "GMObject",
-    "folderName": "Bullet Hell",
+    "folderName": "bullet",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
