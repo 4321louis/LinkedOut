@@ -13,7 +13,7 @@ var namex = currentx + 103;
 for (var i = 0; i < 5; i++) {
 	if (global.proflove[i] != 0) {
 		draw_set_halign(fa_left);
-		draw_sprite(spr_prof_card, image_index, currentx, currenty);
+		instance_create(currentx, currenty, card[i]);
 		draw_sprite(obj_info.profsprite[i], image_index, 163, currenty+26);
 		
 		draw_set_font(fnt_h2);
@@ -36,4 +36,8 @@ for (var i = 0; i < 5; i++) {
 		}
 		currenty += 125;
 	}
+}
+
+if chatopen == 2 {
+draw_text(0,0,"yes");
 }

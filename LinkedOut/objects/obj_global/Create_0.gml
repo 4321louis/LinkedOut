@@ -39,9 +39,9 @@ global.time = 0;
 	...
 	11: Yr 3 Summer */
 	
-	global.proflove[0] = 1;
+	global.proflove[2] = 1;
 	global.proflove[1] = 1;
-	global.proflove[3] = 1;
+	global.proflove[4] = 1;
 
 #endregion
 

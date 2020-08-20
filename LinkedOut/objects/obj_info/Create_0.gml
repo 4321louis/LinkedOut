@@ -41,7 +41,7 @@ profskill[i, 2] = "Being very good at everything";
 i++;
 profname[i] = "Jeeng Hao Low";
 profsprite[i] = spr_prof_1;
-profjob[i] = "Archibishop of Cringe";
+profjob[i] = "Cute fuck";
 profplace[i] = "Cringe Academy";
 profskill[i, 0] = "Being very good at everything";
 profskill[i, 1] = "Being very good at everything";

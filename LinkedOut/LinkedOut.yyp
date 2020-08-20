@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "35763618-317b-4af3-93f3-cc14065fbba8",
+            "Value": {
+                "id": "cd75f2c9-8759-413c-8cfe-4006662a46ed",
+                "resourcePath": "objects\\obj_msg_3\\obj_msg_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "376d7606-f0ae-433c-9cab-2e119ec80c36",
             "Value": {
                 "id": "90db137e-4f13-46f4-a7ee-97f97d2d3190",
@@ -364,6 +372,14 @@
                 "id": "8c4d9422-bce5-4df7-b980-6e728f2d9342",
                 "resourcePath": "sprites\\spr_cover\\spr_cover.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3ddbe538-2d8b-44e5-bf33-e643150b2880",
+            "Value": {
+                "id": "1d445a4d-adee-443b-b327-ecaafa64cb01",
+                "resourcePath": "objects\\obj_msg_1\\obj_msg_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -735,6 +751,14 @@
             }
         },
         {
+            "Key": "908c5ce7-2e51-409b-9ad6-c316e3d98ffb",
+            "Value": {
+                "id": "a3ca0ec4-8189-4fea-94d4-92ec5edcf816",
+                "resourcePath": "objects\\obj_msg_5\\obj_msg_5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "91d6d136-04ba-41e0-8d9d-93f6bcf1b11e",
             "Value": {
                 "id": "fe71f40e-d417-4cef-a278-326b49da10ed",
@@ -959,6 +983,14 @@
             }
         },
         {
+            "Key": "bbbd1fe1-c729-4809-a47c-d42339c57c8e",
+            "Value": {
+                "id": "d5191954-0b62-4961-b607-966f45636ec4",
+                "resourcePath": "objects\\obj_msg_4\\obj_msg_4.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "bcbf3032-cd2d-46e1-84e5-4cd4ed36b027",
             "Value": {
                 "id": "278bbbd0-ddb8-4eb9-a42d-609089d0c0d6",
@@ -996,6 +1028,14 @@
                 "id": "f2d005e7-d18f-46c4-8172-ec660b7be2fd",
                 "resourcePath": "views\\c24b4dc5-265a-45d4-ba86-ad41f7d24195.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c737c253-70fc-4234-80fa-c5f7df539362",
+            "Value": {
+                "id": "511d91ac-8223-464e-a9f3-7eb1f4097606",
+                "resourcePath": "objects\\obj_msg_2\\obj_msg_2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
