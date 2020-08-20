@@ -7,9 +7,8 @@
         "88d19803-691a-4b22-bf38-8494dccbf0fb",
         "39cdb288-ef78-4a67-a765-396df51d614c",
         "33fef3bd-6446-42f7-84ea-18286dc153b6",
-        "07fc37d0-ea2d-477c-a75b-9084b947eeb5",
-        "aa903ded-143d-4bdd-a3c2-2501885e12f3",
-        "2ffaa572-7aee-43a5-bce4-a105122f3e89"
+        "5481159f-af13-49e2-ab85-d1543ce5df1c",
+        "4d56c1f3-9671-4e08-9ab5-6bbebe2afab8"
     ],
     "filterType": "GMSprite",
     "folderName": "profile",

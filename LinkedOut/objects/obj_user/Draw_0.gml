@@ -18,4 +18,6 @@ global.hardname[1] + ": " + string(global.hard[1]) + " | " +
 global.hardname[2] + ": " + string(global.hard[2]) + " | " +
 global.hardname[3] + ": " + string(global.hard[3]);
 
-draw_text(x,y+45,uniinfo + "\n" + softskills + "\n" + hardskills);
+connec = "Connections: " + string(global.connection);
+
+draw_text(x,y+45,uniinfo + "\n" + softskills + "\n" + hardskills + "\n" + connec);

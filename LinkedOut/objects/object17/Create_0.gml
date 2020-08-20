@@ -25,7 +25,7 @@ global.softname[2] = "Motivation";
 
 // Hard skills
 for (var i = 0; i < 4; i++) {
-	global.hard[i] = 0;
+	global.hard[i] = 999;
 }
 
 global.hardname[0] = "Politics";
