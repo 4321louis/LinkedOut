@@ -1223,14 +1223,6 @@
             }
         },
         {
-            "Key": "c0da21f1-d3ed-4d3c-a53a-b4537776a9ad",
-            "Value": {
-                "id": "82c0958b-12c4-494c-a473-4a5e90cfad7d",
-                "resourcePath": "objects\\obj_log\\obj_log.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c12d4c49-1aed-404a-b23c-3c0f05aeeec6",
             "Value": {
                 "id": "acffcc19-c83b-4cfb-8bc7-f8e9e868df18",
