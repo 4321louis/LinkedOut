@@ -204,3 +204,4 @@ coursestats[i++] = array(30, 40, 90, 50, 50, 40);
 coursestats[i++] = array(40, 40, 50, 60, 30, 80);
 
 #endregion
+
