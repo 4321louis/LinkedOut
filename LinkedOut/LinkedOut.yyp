@@ -479,6 +479,14 @@
             }
         },
         {
+            "Key": "3d7ee353-7d57-495d-a129-ad7e0bb2a0b9",
+            "Value": {
+                "id": "cc2f783a-3964-4d3b-9841-fb9ed5d3c63b",
+                "resourcePath": "objects\\obj_trivia\\obj_trivia.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3ddbe538-2d8b-44e5-bf33-e643150b2880",
             "Value": {
                 "id": "1d445a4d-adee-443b-b327-ecaafa64cb01",
@@ -540,6 +548,14 @@
                 "id": "793d93fa-5473-41b3-b132-f11327cef9f6",
                 "resourcePath": "sprites\\spr_bar\\spr_bar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4aa685d9-5c53-4f92-af79-edcb61733670",
+            "Value": {
+                "id": "bef64507-86dd-4b19-9aef-dea638ab7104",
+                "resourcePath": "objects\\obj_bullet\\obj_bullet.yy",
+                "resourceType": "GMObject"
             }
         },
         {
