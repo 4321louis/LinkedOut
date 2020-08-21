@@ -20,7 +20,7 @@ global.hard = array(0,0,0,0);
 		5: (max) got job from person */
 global.proflove = array(0,0,0,0,0);
 global.proflove[0] = 1;
-
+global.selectedProfessional = obj_info.PROFESSIONALS.A;
 /* Time
 	-use floor(global.time / 3) + 1) for year number
 	-use global.period[global.time % 4] for period name label */

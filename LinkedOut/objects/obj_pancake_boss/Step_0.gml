@@ -21,7 +21,7 @@ if path_position >=0.69958491742 && !lock[2]{
 if alarm[0] == room_speed*2 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
-		with (instance_create(x,y,obj_testBullet)) {
+		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets;

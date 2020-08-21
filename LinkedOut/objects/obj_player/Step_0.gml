@@ -5,23 +5,23 @@ if keyboard_check(ord("S"))||keyboard_check(vk_down) y+=sped;
 if keyboard_check(ord("D"))||keyboard_check(vk_right) x+=sped;
 if keyboard_check(ord(" ")&&alarm[0]>0) {
 	#region activate power
-	/*switch global.selectedProfessor {
-		case global.PROFESSOR_0:
+	switch obj_global.selectedProfesional {
+		case obj_info.PROFESSIONALS.A:
 			sped = 7;
 		break;
-		case global.PROFESSOR_1:
+		case obj_info.PROFESSIONALS.B:
 			sped = 7;
 		break;
-		case global.PROFESSOR_2:
+		case obj_info.PROFESSIONALS.C:
 			sped = 7;
 		break;
-		case global.PROFESSOR_3:
+		case obj_info.PROFESSIONALS.D:
 			sped = 7;
 		break;
-		case global.PROFESSOR_4:
+		case obj_info.PROFESSIONALS.E:
 			sped = 7;
 		break;
-	}*/
+	}
 	#endregion
 }
 
