@@ -22,7 +22,7 @@ if alarm[0] == room_speed*2 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_testBullet)) {
-			sprite_index = spr_test;
+			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets;
 		}

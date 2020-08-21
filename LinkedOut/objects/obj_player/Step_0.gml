@@ -24,3 +24,8 @@ if keyboard_check(ord(" ")&&alarm[0]>0) {
 	}*/
 	#endregion
 }
+
+if (bbox_left<0) x+=sped;
+if (bbox_top<0) y+=sped;
+if (bbox_right>room_width) x-=sped;
+if (bbox_bottom>room_height) y-=sped;
