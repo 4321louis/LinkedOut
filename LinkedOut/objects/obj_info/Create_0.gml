@@ -14,6 +14,13 @@ period = array("Sem 1", "Winter","Sem 2", "Summer");
 #region waifu data
 // Professional A
 var i = 0;
+enum PROFESSIONALS {
+	A,
+	B,
+	C,
+	D,
+	E
+}
 
 proffirstname[i] = "Ryan";
 proflastname[i] = "Tan";
