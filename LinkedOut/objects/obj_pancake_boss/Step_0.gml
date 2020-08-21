@@ -1,16 +1,16 @@
-if path_position <1/3 && !lock[0]{
+if path_position <0.1 && !lock[0]{
 		path_speed = 0;
 		alarm[0] = 5*room_speed;
 		lock[0] = true;
 		lock[1] = false;
 }
-if path_position >=1/3 && !lock[1] {
+if path_position >= 0.39916983485 && !lock[1] {
 		path_speed = 0;
 		alarm[0] = 5*room_speed;
 		lock[1] = true;
 		lock[2] = false;
 }
-if path_position >=2/3 && !lock[2]{
+if path_position >=0.69958491742 && !lock[2]{
 		path_speed = 0;
 		alarm[0] = 5*room_speed;
 		lock[2] = true;
