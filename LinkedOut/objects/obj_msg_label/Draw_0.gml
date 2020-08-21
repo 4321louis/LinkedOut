@@ -23,7 +23,7 @@ for (var i = 0; i < 5; i++) {
 		if (i != 0) {
 			draw_text(namex, currenty+42, obj_info.profjob[i] + " at " + obj_info.profplace[i]);
 		} else {
-			draw_text(namex, currenty+42, obj_info.profjob[i] + " at " + obj_info.profAplace[i]);
+			draw_text(namex, currenty+42, obj_info.profjob[i] + " at " + obj_info.profAplace[global.course]);
 		}
 		
 		draw_set_font(fnt_desc);

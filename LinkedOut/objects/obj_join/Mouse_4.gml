@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 sprite_index = spr_join_pressed;
 if (global.name == "") {
@@ -7,6 +7,16 @@ if (global.name == "") {
 
 if (global.uni == "") {
 	global.uni = "Hinamizawa Branch School";
+}
+
+var initstats = obj_info.coursestats[global.course];
+
+for (var i = 0; i < 6; i++) {
+	if (i < 4) {
+		global.hard[i] = initstats[i];
+	} else {
+		global.soft[i-4] = initstats[i];
+	}
 }
 
 alarm[0] = 0.1 * room_speed;
