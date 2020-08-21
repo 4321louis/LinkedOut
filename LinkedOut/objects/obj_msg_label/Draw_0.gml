@@ -17,7 +17,8 @@ for (var i = 0; i < 5; i++) {
 		draw_sprite(obj_info.profsprite[i], image_index, 163, currenty+26);
 		
 		draw_set_font(fnt_h2);
-		draw_text(namex, currenty+14, obj_info.profname[i]);
+		draw_text(namex, currenty+14, obj_info.proffirstname[i]+ " " + obj_info.proflastname[i]);
+
 		
 		draw_set_font(fnt_text1);
 		if (i != 0) {
