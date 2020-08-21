@@ -4,3 +4,6 @@
 // Opens chat
 obj_msg_label.chatopen = 1;
 window_set_cursor(cr_default);
+
+// Open up the chat for this particular professional
+
