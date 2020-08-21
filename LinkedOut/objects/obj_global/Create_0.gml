@@ -8,10 +8,15 @@ global.course = 0;
 
 global.motivmax = 100;
 
-for (var i = 0; i < 4; i++) {
-	// soft skills
-	global.soft[i] = 0;
-	
+global.soft[0] = 0;
+global.soft[1] = 0;
+global.soft[2] = global.motivmax;
+
+global.connec[0] = 0;
+global.connec[1] = 0;
+global.connec[2] = 0;
+
+for (var i = 0; i < 4; i++) {	
 	// hard skills
 	global.hard[i] = 999;
 }
@@ -26,7 +31,7 @@ for (var i = 0; i < 5; i++) {
 		5: (max) got job from person */
 	global.proflove[i] = 0;
 }
-global.soft[2] = global.motivmax;
+
 
 /* Time
 	-use floor(global.time / 3) + 1) for year number
