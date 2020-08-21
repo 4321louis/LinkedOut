@@ -45,7 +45,7 @@ prof_question[science, 4] = "Q5";
 prof_question[science, 5] = "Q6";
 
 
-//Correct answer for each question
+//Correct and incorrect for respective questions and their associated effect on the relationship status (to be changed).
 prof_answers[arts, 0] = ["A1", 5, "A2", -5, "A3", -2, "A4", 2];
 prof_answers[arts, 1] = ["A1", 5, "A2", -5, "A3", -2, "A4", 2];
 prof_answers[arts, 2] = ["A1", 5, "A2", -5, "A3", -2, "A4", 2];
