@@ -15,8 +15,7 @@ period = array("Sem 1", "Winter","Sem 2", "Summer");
 // Professional A
 var i = 0;
 
-proffirstname[i] = "Ryan";
-proflastname[i] = "Tan";
+profname[i] = "Ryan Tan";
 profsprite[i] = spr_prof_0;
 profjob[i] = "CEO";
 profplace[i] = "";
@@ -29,8 +28,7 @@ profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
 
 i++;
-proffirstname[i] = "Christina"
-proflastname[i] = "Titor";
+profname[i] = "Christina Titor";
 profsprite[i] = spr_prof_1;
 profjob[i] = "Archibishop of Cringe";
 profplace[i] = "Cringe Academy";
@@ -39,8 +37,7 @@ profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
 
 i++;
-proffirstname[i] = "Karge"
-proflastname[i] = "Minatozaki";
+profname[i] = "Karge Minatozaki";
 profsprite[i] = spr_prof_2;
 profjob[i] = "Pro Dota Player";
 profplace[i] = "Dota University";
@@ -49,8 +46,7 @@ profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
 
 i++;
-proffirstname[i] = "Bear"
-proflastname[i] = "Andrews";
+profname[i] = "Bear Andrews";
 profsprite[i] = spr_prof_3;
 profjob[i] = "Cool";
 profplace[i] = "Very";
@@ -59,8 +55,7 @@ profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
 
 i++;
-proffirstname[i] = "Acerola"
-proflastname[i] = "O'Brien";
+profname[i] = "Acerola O'Brien";
 profsprite[i] = spr_prof_4;
 profjob[i] = "Col";
 profplace[i] = "Ver";
@@ -209,3 +204,4 @@ coursestats[i++] = array(30, 40, 90, 50, 50, 40);
 coursestats[i++] = array(40, 40, 50, 60, 30, 80);
 
 #endregion
+
