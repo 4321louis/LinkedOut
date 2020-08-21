@@ -175,8 +175,9 @@ var i = 0;
 
 // Arts
 coursestats[i++] = array(50, 50, 40, 50, 60, 50);
-
-
+coursestats[i++] = array(60, 50, 30, 20, 80, 60);
+coursestats[i++] = array(40, 30, 90, 50, 50, 40);
+coursestats[i++] = array(40, 40, 50, 60, 30, 80);
 
 
 
