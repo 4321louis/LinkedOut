@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 offset = 5;
-barScale = 320;
+barScale = 600;
 instantScale = 20;
 // scaling of scroll bar and change the limits
 image_yscale = sprite_height * barScale;

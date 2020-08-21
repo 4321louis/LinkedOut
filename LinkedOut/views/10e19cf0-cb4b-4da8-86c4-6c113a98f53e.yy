@@ -14,7 +14,9 @@
         "d10f1a9e-0ffa-441f-b3f6-fb1982ef9747",
         "1d7734e3-2157-44cd-ae47-c8c9a794f086",
         "4e496bc0-4770-4435-a901-a737e3e07d6f",
-        "b46e3522-20c4-45a7-8fd3-9474ab37b66f"
+        "b46e3522-20c4-45a7-8fd3-9474ab37b66f",
+        "bd815251-b26f-4248-af40-2a5fa315c535",
+        "516ddc61-3308-40f9-a5e2-61a43c2f2bac"
     ],
     "filterType": "GMObject",
     "folderName": "job",
