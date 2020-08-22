@@ -1,6 +1,6 @@
 if keyboard_check(ord(" ")&&alarm[0]<=0) {
 	#region activate power
-	switch global.selectedProfesional {
+	switch global.selectedProfessional {
 		case obj_info.PROFESSIONALS.A:
 		break;
 		case obj_info.PROFESSIONALS.B:

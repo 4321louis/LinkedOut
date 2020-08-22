@@ -34,7 +34,7 @@ if alarm[0] == room_speed*4 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets+0.5*360/bullet;
+		    path_orientation = i*360/bullets+0.5*360/bullets;
 		}
 	}
 }

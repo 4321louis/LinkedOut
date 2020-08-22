@@ -5,16 +5,6 @@ window_set_cursor(cr_default);
 
 // Debugging, this code goes into bullet hell (if passed turn off/on);
 if (obj_job_label.jobopen != 0) {
-	global.openact[obj_job_label.jobopen -1] = 1;
-	room_restart();
-	global.openjobs[obj_job_label.jobopen -1] = 0;
+	global.selectedLevel = obj_job_label.jobopen;
+	room_goto(rm_pancake);
 }
-
-/*
-if (room != rm_minigame_1) {
-		room_goto(rm_minigame_1);
-}
-else {
-	room_goto(rm_profile);
-}
-*/

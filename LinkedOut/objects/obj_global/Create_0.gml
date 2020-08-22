@@ -54,6 +54,6 @@ global.time = 0;
 	3: Yr 1 Summer
 	...
 	11: Yr 3 Summer */
-	
+global.selectedLevel = 0
 #endregion
 
