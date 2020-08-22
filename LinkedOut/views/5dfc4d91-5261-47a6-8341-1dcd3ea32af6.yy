@@ -13,7 +13,9 @@
         "64f0a112-3f04-43ec-86bd-2070e12e0ce3",
         "4c25b055-5f59-4bc3-8005-25255017ff29",
         "eec3f7df-9cd6-474b-aa20-8ec7a30b9093",
-        "465a057c-6463-4ce4-992d-02e9bb9a62a7"
+        "465a057c-6463-4ce4-992d-02e9bb9a62a7",
+        "d26c5bd3-b02f-458c-adbc-9b28b4ef44b8",
+        "f434a177-b2b3-438a-a2cb-43d0b01a43b2"
     ],
     "filterType": "GMSprite",
     "folderName": "msg",

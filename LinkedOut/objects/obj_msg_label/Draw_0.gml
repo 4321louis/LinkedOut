@@ -46,6 +46,10 @@ for (var i = 0; i < 5; i++) {
 	}
 }
 
+if (global.chatted = true) {
+	draw_sprite(spr_warning,image_index,741,316);
+}
+
 if (chatopen != 0) {
 	draw_set_font(fnt_heading);
 	draw_text(722, 23,obj_info.proffirstname[chatopen-1] + " " + obj_info.proflastname[chatopen-1]);
