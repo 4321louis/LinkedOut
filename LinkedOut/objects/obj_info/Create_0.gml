@@ -160,7 +160,7 @@ actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
   actsoftskill[i] = array(0,0,-20,0);
   acthardskill[i] = array(40,40,40,40);
-  actconnec[i] = array(0,0,0);
+  actconnec[i] = array(5,10,0);
 #region intern desc
 // j = 3
 j++;
@@ -195,7 +195,7 @@ actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
   actsoftskill[i] = array(0,0,0,0);
   acthardskill[i] = array(40,40,40,40);
-  actconnec[i] = array(0,0,0);
+  actconnec[i] = array(10,10,0);
 // j = 7
 j++;
 jobname[j] = "Student Intern";

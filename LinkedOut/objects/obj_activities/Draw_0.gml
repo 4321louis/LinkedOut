@@ -23,7 +23,7 @@ if (global.selectedact < 8) {
 	hardsk = obj_info.acthardskill[global.selectedact];
 	nohard = true;
 	for (var i = 0; i < 4; i++) {
-		if (hardsk[i] != 0) {
+		if (hardsk[i] != 0) { 
 			nohard = false;
 			skillz += hard[i] + string(hardsk[i]) + " ";
 		}

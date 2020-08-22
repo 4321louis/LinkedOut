@@ -367,6 +367,14 @@
             }
         },
         {
+            "Key": "246744ae-c5ba-4c87-a6e9-fd2c5314b696",
+            "Value": {
+                "id": "a9655859-e174-4277-ba35-1e5ca1d55a4a",
+                "resourcePath": "objects\\obj_unfinished\\obj_unfinished.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "246feba9-bb3d-4b33-b1f9-78c3cc97869c",
             "Value": {
                 "id": "6b82e07c-a48f-4614-99e1-4fb6b4a214d8",
