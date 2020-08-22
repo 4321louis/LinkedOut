@@ -6,7 +6,7 @@ soft = array("People", "Intuition", "Motivation");
 hard = array("Politics", "Business", "Creativity", "Science");
 
 connec = "Connections";
-
+conneccs = array("SSR", "SR", "R");
 period = array("Sem 1", "Winter","Sem 2", "Summer");
 
 #endregion
@@ -159,7 +159,7 @@ i++;
 actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
   actsoftskill[i] = array(0,0,-20,0);
-  acthardskill[i] = array(30,30,30,30);
+  acthardskill[i] = array(40,40,40,40);
   actconnec[i] = array(0,0,0);
 #region intern desc
 // j = 3

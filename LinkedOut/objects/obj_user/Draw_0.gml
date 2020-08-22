@@ -21,5 +21,7 @@ obj_info.hard[3] + ": " + string(global.hard[3]);
 
 connec = obj_info.connec + ": " + string(global.connec[0]+global.connec[1]+global.connec[2]);
 
+detailedconnec = obj_info.conneccs[0] + ": " + string(global.connec[0]) + " | " + obj_info.conneccs[1] +
+": " + string(global.connec[1]) + " | " + obj_info.conneccs[2] + ": " + string(global.connec[2]) ;
 
-draw_text(x,y+45,uniinfo + "\n" + softskills + "\n" + hardskills + "\n" + connec);
+draw_text(x,y+45,uniinfo + "\n" + softskills + "\n" + hardskills + "\n" + connec + "\n                " + detailedconnec);
