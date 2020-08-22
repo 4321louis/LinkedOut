@@ -9,12 +9,19 @@ var maxWidth = 1;
 var maxHeight = 10;
 */
 
-var xx = 280;
-var yy = 0;
 
 
 
-instance_create_layer(xx, yy, "Instances", obj_log);
+// array of activity messages
+actarr[0] = "Wow! What a loser? Studying hard in a SIMULATOR?? Laters virgin.";
+actarr[1] = "";
+
+
+// instance_create_layer(xx, yy, "Instances", obj_log);
+
+
+
+
 
 /*
 for (var i = 0; i < maxWidth; i++) {
@@ -33,6 +40,6 @@ for (var i = 0; i < maxWidth; i++) {
 }
 */
 
-global.areaHeight = areaHeight - room_height + (room_height/2);
+// global.areaHeight = areaHeight - room_height + (room_height/2);
 
  
