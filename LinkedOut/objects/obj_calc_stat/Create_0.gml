@@ -202,7 +202,7 @@ for (var i = 0; i < 3; i++) {
 	}
 	if (global.time == 8) {
 		for (var i = 7; i <12; i++) {
-			if (global.proflove[i-7] == 5) {
+			if (global.proflove[i-7] == 4) {
 				newjob = true;
 				global.openjobs[i] = 1;
 				if (i-7 == 0) {

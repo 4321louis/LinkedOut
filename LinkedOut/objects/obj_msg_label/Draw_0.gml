@@ -39,6 +39,7 @@ for (var i = 0; i < 5; i++) {
 	}
 }
 
-if chatopen == 2 {
-draw_text(0,0,"yes");
+if (chatopen != 0) {
+	draw_set_font(fnt_heading);
+	draw_text(722, 23,obj_info.proffirstname[chatopen-1] + " " + obj_info.proflastname[chatopen-1]);
 }
