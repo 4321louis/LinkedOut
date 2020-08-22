@@ -21,7 +21,7 @@ gained_reputation += min(repCoefficient*power(dist*0.01,-1.1),0.1)
 
 //win
 var Dhelper = 1;
-if (obj_global.selectedProfesional == obj_info.PROFESSIONALS.B) Dhelper=0.8;
+if (global.selectedProfesional == obj_info.PROFESSIONALS.B) Dhelper=0.8;
 if (boss.requiredRep*Dhelper < gained_reputation) {
 	room_goto(rm_job);
 }
