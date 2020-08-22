@@ -1,11 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 var areaHeight = 0;
-var maxWidth = 5; 
+var maxWidth = 1; 
 var maxHeight = 10;
 
-var xx = 100;
-var yy = 125;
+var xx = 280;
+var yy = 0;
 
 
 for (var i = 0; i < maxWidth; i++) {
@@ -18,9 +20,11 @@ for (var i = 0; i < maxWidth; i++) {
 		}
 	}
 	areaHeight = yy;
-	yy = 125;
+	yy += 125;
 	xx += 150;
 
 }
 
-global.areaHeight = areaHeight - room_height;
+global.areaHeight = areaHeight - room_height + (room_height/2);
+
+ 

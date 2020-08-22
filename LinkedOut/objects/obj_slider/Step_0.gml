@@ -20,6 +20,6 @@ if (!grab) {
 
 }
 		
-percentage = round(((y - bottomLimit)/(topLimit - bottomLimit)) * 500);
+percentage = round(((y - bottomLimit)/(topLimit - bottomLimit)) * 220);
 
  
