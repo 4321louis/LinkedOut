@@ -150,7 +150,7 @@ actdesc[i] = "Just a casual job for poor student desperate for some quick cash."
   actsoftskill[i] = array(+30,-5,-5,0);
   acthardskill[i] = array(0,0,0,0);
   actconnec[i] = array(0,0,5);
-jobname[j] = "Waitress";
+jobname[j] = "Waitstaff";
 jobplace[j] = "PanpakaPancakes";
 jobdesc[j] = "Panpakapan~\n\nWe are a Japanese-styled cafe specialising in\npancakes. If you love pancakes, please don't\nhesitate to send us an email!\n\nWe will be waiting for your application.";
 

@@ -31,7 +31,7 @@ for (var i = 0; i < 5; i++) {
 		if (global.proflove[i] == 1) {
 			draw_text(namex, currenty+62, "Connect more to unlock skill\n(Message me!)");
 		} else if (global.proflove[i] == 5) {
-			draw_text(namex, currenty+62, obj_info.profskill[i, global.proflove[i]-1]);
+			draw_text(namex, currenty+62, obj_info.profskill[i, global.proflove[i]-3]);
 		} else {
 			draw_text(namex, currenty+62, obj_info.profskill[i, global.proflove[i]-2]);
 		}
