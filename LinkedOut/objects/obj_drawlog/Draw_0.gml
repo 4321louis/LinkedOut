@@ -4,7 +4,7 @@ draw_set_font(fnt_heading);
 draw_set_halign(fa_left);
 
 draw_set_font(fnt_heading);
-draw_text(200, 330, "Activity Log");
+draw_text(200, 330, "Extracurricular Activity History");
 
 var xx = 200;
 var yy = 380;
