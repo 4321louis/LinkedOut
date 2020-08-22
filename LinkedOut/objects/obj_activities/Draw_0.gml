@@ -7,3 +7,4 @@ draw_text(x,y,"Current Activities");
 draw_sprite(spr_act1,image_index, 194,97);
 
 draw_text(x,y+100, "Available Activities");
+

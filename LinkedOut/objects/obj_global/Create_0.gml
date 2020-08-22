@@ -26,7 +26,7 @@ enum jobs {
 global.selectedact = 0;
 
 global.openjobs = array(1,1,1,0,0,0,0,1,1,0,0,0);
-global.openact = array(0,0,0,0,0,0,0,0,0,0,0,0);
+global.openact = array(1,1,1,0,0,1,1,0,0,1,1,0);
 
 global.connec = array(0,0,0);
 global.hard = array(0,0,0,0);
