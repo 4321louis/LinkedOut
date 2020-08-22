@@ -9,7 +9,7 @@ draw_text(200, 330, "Activity Log");
 var xx = 200;
 var yy = 380;
 
-actmessage = "";
+
 
 draw_set_font(fnt_log);
 /*
@@ -34,25 +34,30 @@ for (var i = 0; i < global.time; i++){
 }
 */
 for (var i = global.time - 1; i > -1; i--){
+	actmessage1 = "Year " + string(floor(i / 4) + 1) + " " + obj_info.period[i % 4] + " : ";
+	actmessage = "";
 	if (global.activlog[i] == 0) {
 		// instance_create_layer(xx, yy, "Instances", obj_log);
-		actmessage = actarr[0];
+		actmessage += actarr[0];
 	} else if (global.activlog[i] > 0 && global.activlog[i] <= 4) {
-		actmessage = "You dedicated your soul to " + obj_info.actname[global.activlog[i]];
+		actmessage += "You dedicated your soul to " + obj_info.actname[global.activlog[i]];
 		
 		
 	} else if (global.activlog[i] > 4 && global.activlog[i] <=6) {
-		actmessage = "You spent time " + obj_info.actname[global.activlog[i]] + " at " + obj_info.jobplace[global.activlog[i] - 5];
+		actmessage += "You spent time " + obj_info.actname[global.activlog[i]] + " at " + obj_info.jobplace[global.activlog[i] - 5];
 		
 		
 	} else if (global.activlog[i] == 7) {
-		actmessage = "You spent time " + obj_info.actname[global.activlog[i]];
+		actmessage += "You spent time " + obj_info.actname[global.activlog[i]];
 		
 		
 	} else if (global.activlog[i] > 8) {
-		actmessage = "Congratulations on getting an " + obj_info.actname[8] + obj_info.jobplace[global.activlog[i] - 5];
+		actmessage += "Congratulations on getting an " + obj_info.actname[8] + " " + obj_info.jobplace[global.activlog[i] - 5];
 		
 	} 
-	draw_text(xx, yy, actmessage);
+	
+	draw_text(xx, yy, actmessage1);
+	draw_text(xx + 125, yy, actmessage);
+
 	yy += 20;
 }
