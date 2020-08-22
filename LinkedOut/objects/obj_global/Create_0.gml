@@ -27,8 +27,10 @@ global.selectedact = 0;
 
 global.activlog = array(0,0,0,0,0,0,0,0,0,0,0,0);
 
-global.openjobs = array(1,1,1,0,0,0,0,1,1,0,0,0);
-global.openact = array(1,1,1,0,0,1,1,0,0,1,1,0);
+global.chatted = false;
+
+global.openjobs = array(1,1,1,0,0,0,0,0,0,0,0,0);
+global.openact = array(0,0,0,0,0,0,0,0,0,0,0,0);
 
 global.connec = array(1,0,4);
 global.hard = array(0,0,0,0);
@@ -40,7 +42,7 @@ global.hard = array(0,0,0,0);
 		3: 2 hearts
 		4: 3 hearts
 		5: (max) got job from person */
-global.proflove = array(1,0,0,3,2);
+global.proflove = array(1,1,1,1,1);
 global.proflove[0] = 1;
 global.selectedProfessional = obj_info.PROFESSIONALS.A;
 /* Time

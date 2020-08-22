@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 chatopen = 0;
-
+created = 0;
 card[0] = obj_msg_1;
 card[1] = obj_msg_2;
 card[2] = obj_msg_3;

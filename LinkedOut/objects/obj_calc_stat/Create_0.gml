@@ -1,5 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
+#region printing n adding stats
 intuimulti = (2 / 3.14) * arctan (0.002 * (global.soft[1] - 60)) + 1;
 peopmulti = (2 / 3.14) * arctan (0.004 * (global.soft[0] - 60)) + 1.5;
 if (global.soft[1] < 60) {
@@ -186,3 +187,34 @@ for (var i = 0; i < 3; i++) {
 	}
 	connects += connecchange[i];
 }
+#endregion
+
+#region opening jobs and prof
+	newjob = false;
+	if (global.time == 4) {
+		for (var i = 1; i < 3; i++) {
+			global.openjobs[i] = 0;
+		}
+		for (var i = 3; i <7; i++) {
+			global.openjobs[i] = 1;
+		}
+		newjob = true;
+	}
+	if (global.time == 8) {
+		for (var i = 7; i <12; i++) {
+			if (global.proflove[i-7] == 5) {
+				newjob = true;
+				global.openjobs[i] = 1;
+				if (i-7 == 0) {
+					global.openjobs[3+global.course] = 0;
+					global.openjobs[i+1+global.course] = 0;
+				}
+				global.openjobs[i-5] = 0;
+			}
+		}
+	} 
+	
+	jobtxt = "There are new jobs available for you to apply."
+	
+	global.chatted = false;
+#endregion
