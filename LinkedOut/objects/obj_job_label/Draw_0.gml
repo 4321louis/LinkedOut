@@ -2,6 +2,8 @@
 // You can write your code in this editor
 /// @description Insert description here
 // You can write your code in this editor
+
+#region left
 draw_set_font(fnt_heading);
 draw_set_halign(fa_left);
 
@@ -105,3 +107,52 @@ for (var i = 0; i < 12; i++) {
 		currenty += 125;
 	}
 }
+#endregion
+
+#region right
+draw_set_font(fnt_heading);
+draw_set_halign(fa_left);
+
+draw_set_font(fnt_heading);
+draw_text(610, 23, "Information");
+var currentx = 610;
+var currenty = 87;
+
+var namex = currentx + 30;
+
+draw_set_halign(fa_left);
+draw_set_font(fnt_h2);
+draw_text(namex, currenty, "Job Description");
+
+if (jobopen != 0) {
+	#region draw job name
+		draw_set_font(fnt_text1);
+		
+		job = "";
+		
+		if (jobopen-1 < 7) {
+			job += obj_info.jobname[jobopen-1] + " at " + obj_info.jobplace[jobopen-1];
+		} else if (jobopen-1 < 12) {
+			job += obj_info.jobname[7];
+			
+			if (jobopen-1 == 7) {
+				job += " at " + obj_info.profAplace[global.course];				
+			} else {
+				job += " at " + obj_info.profplace[jobopen-1-7];		
+			}
+		}
+		
+		draw_text(namex, currenty+32, job);
+		#endregion
+	#region draw job desc
+		draw_set_font(fnt_desc);
+		desc = "";
+		if (jobopen-1 < 7) {
+			desc += obj_info.jobdesc[jobopen-1];
+		} else if (jobopen-1 < 12) {
+			desc += obj_info.proffirstname[jobopen-1-7] + " " + obj_info.jobdesc[7];			
+		}
+		draw_text(namex+10, currenty+62, desc);
+		#endregion
+}
+#endregion

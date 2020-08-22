@@ -128,7 +128,7 @@ actdesc[i] = "Volunteer to make this world a better place.";
   actconnec[i] = array(0,0,5);
 jobname[j] = "Volunteer";
 jobplace[j] = "Teddy Bear Foundation";
-jobdesc[j] = "Want to make this world a better place? Teddy Bear Foundation is a not-for-profit organisation for kids in need and we are currently looking for volunteers! If helping others sounds like your passion, apply now!";
+jobdesc[j] = "Want to make this world a better place?\n\nTeddy Bear Foundation is a not-for-profit\norganisation for kids in need and we are currently\nlooking for volunteers!\n\nIf helping others sounds like your passion, apply now!";
 
 // i = 6, j = 1
 i++;
@@ -139,8 +139,8 @@ actdesc[i] = "Helping out the youngsters.";
   acthardskill[i] = array(10,10,10,10);
   actconnec[i] = array(0,0,5);
 jobname[j] = "Tutor";
-jobplace[j] = "Cringe Academy";
-jobdesc[j] = "Cringe Academy. I have no interest in ordinary students. If there are any tutors, bright students or professionals here, come join us! That is all.";
+jobplace[j] = "Oringe Academy";
+jobdesc[j] = "Oringe Academy.\n\nWe have no interest in ordinary university\nstudents.\n\nIf you are a tutor, bright student or professional,\ncome join us!\n\nThat is all.";
 
 // i = 7, j = 2
 i++;
@@ -152,7 +152,7 @@ actdesc[i] = "Just a casual job for poor student desperate for some quick cash."
   actconnec[i] = array(0,0,5);
 jobname[j] = "Waitress";
 jobplace[j] = "PanpakaPancakes";
-jobdesc[j] = "Panpakapan~ We are a Japanese-styled cafe specialising in pancakes. If you love pancakes, please don't hesitate to send us an email! We will be waiting for your application.";
+jobdesc[j] = "Panpakapan~\n\nWe are a Japanese-styled cafe specialising in\npancakes. If you love pancakes, please don't\nhesitate to send us an email!\n\nWe will be waiting for your application.";
 
 // i = 8
 i++;
@@ -166,25 +166,25 @@ actdesc[i] = "Student internship for industry experience.";
 j++;
 jobname[j] = "Student Intern";
 jobplace[j] = "Ministry of Corruption";
-jobdesc[j] = "The Ministry of Corruption is a major government department which seeks to maintain the corruptness of the government. Student applications are competitive and therefore we recommend you to apply early.";
+jobdesc[j] = "The Ministry of Corruption is a major government\ndepartment which seeks to maintain the\ncorruptness of the government.\n\nStudent applications are competitive and\nwe therefore recommend you to apply early.";
 
 // j = 4
 j++;
 jobname[j] = "Student Intern";
 jobplace[j] = "ENAKO";
-jobdesc[j] = "Here at ENAKO, the biggest global financial institution, we strive in doing the best for our clients. From investing to project planning, you will make the most of your university life with this internship. Apply now to gain the most relevant skills for your next career.";
+jobdesc[j] = "Here at ENAKO, the world's biggest global\nfinancial institution, we strive in providing\nexcellent service to our clients.\n\nFrom consulting to project planning, you will\nmake the most of your uni life with this internship.\n\nApply now to gain the most relevant skills for your\ncareer.";
 
 // j = 5
 j++;
 jobname[j] = "Student Intern";
 jobplace[j] = "Atom-O-sphere";
-jobdesc[j] = "We are an independent music label with artists specialising in speeding (by that we mean 999+ BPM tracks). We are currently looking for in house designers to assist with album cover design. If bassdropping and speedstars sound like your thing, send us your resume!";
+jobdesc[j] = "We are an independent music label with artists\nspecialising in speeding (by that we mean 999+\nBPM tracks).\n\nWe are currently looking for in house designers to\nassist with album cover design.\n\nIf bassdropping and speedstars sound like your\nthing, send us your resume!";
   
 // j = 6
 j++;
 jobname[j] = "Student Intern";
 jobplace[j] = "NERW";
-jobdesc[j] = "We are looking for a student intern to assist us with COVID-19 vaccine development.";
+jobdesc[j] = "We are looking for a student intern to assist us\nwith COVID-19 vaccine development.";
 #endregion
 
 #endregion
