@@ -27,8 +27,8 @@ for (var i = 0; i < 4; i++) {
 var currentx = 650;
 var currenty =195;
 for (var i = 4; i < 12; i++) {
-	currenty +=61;
 	if (global.openact[i] != 0) {
 		instance_create(currentx,currenty, act[i]);
 	}
+		currenty +=61;
 }

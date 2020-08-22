@@ -11,7 +11,7 @@
             "id": "4027707b-5ea7-4da9-ae0b-8abd6344feeb",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 90,
+            "x": 160,
             "y": 90,
             "speed": 100
         },
@@ -19,7 +19,7 @@
             "id": "0cffd808-363c-4674-9657-1868b176b879",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 630,
+            "x": 1120,
             "y": 90,
             "speed": 100
         },
@@ -27,7 +27,7 @@
             "id": "58ae9210-ede5-4a22-b38a-d57dbb2396a6",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 360,
+            "x": 640,
             "y": 630,
             "speed": 100
         }
