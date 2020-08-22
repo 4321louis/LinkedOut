@@ -663,6 +663,14 @@
             }
         },
         {
+            "Key": "465a057c-6463-4ce4-992d-02e9bb9a62a7",
+            "Value": {
+                "id": "2274ff89-0a29-45d0-bd28-27318a1c8dba",
+                "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "48f3cbe8-0492-48a1-b0ab-a70c8fa77cd2",
             "Value": {
                 "id": "61b628bd-722c-494f-a223-77ef29ec864d",
