@@ -66,7 +66,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "180",
+            "value": "60",
             "varName": "fightTime",
             "varType": 0
         }
