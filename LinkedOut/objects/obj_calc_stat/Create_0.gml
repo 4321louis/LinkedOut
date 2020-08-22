@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+global.activlog[global.time++] = global.selectedact;
+
 for (var i = 0; i < 4 ; i++) {
 	hardchange[i] = obj_info.hard[i] + ": " + string(global.hard[i]);
 }
@@ -86,4 +89,21 @@ if (global.selectedact < 8) {
 
 if (global.soft[2] > global.soft[3]) {
 	global.soft[2] = global.soft[3];
+}
+
+
+skillz = "";
+for (var i = 0; i < 4; i++) {
+	if (i != 0) {
+	skillz += " | "	;
+	}
+	
+	skillz += hardchange[i];
+}
+skillz += "\n";
+for (var i = 0; i < 3; i++) {
+	if (i != 0) {
+		skillz += " | "	;
+	}
+	skillz += softchange[i];
 }

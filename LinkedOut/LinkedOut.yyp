@@ -2031,6 +2031,14 @@
             }
         },
         {
+            "Key": "e91353ee-1758-47f3-91bb-ed129d662bc2",
+            "Value": {
+                "id": "ca157364-a51b-4a6d-b4dd-bcdecfdf8eaf",
+                "resourcePath": "rooms\\rm_ending\\rm_ending.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e95cb1c4-5ec9-432b-88ab-c45da5533f3f",
             "Value": {
                 "id": "fc3ea49e-34ee-4876-9e64-fd0701a3b956",
