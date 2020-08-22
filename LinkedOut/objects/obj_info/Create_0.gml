@@ -36,21 +36,21 @@ profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
 
 i++;
-proffirstname[i] = "Christina"
-proflastname[i] = "Titor";
+proffirstname[i] = "Karge"
+proflastname[i] = "Minatozaki";
 profsprite[i] = spr_prof_1;
-profjob[i] = "Archibishop of Cringe";
-profplace[i] = "Cringe Academy";
+profjob[i] = "Legal Advisor";
+profplace[i] = "Dota University";
 profskill[i, 0] = "Being very good at everything";
 profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
 
 i++;
-proffirstname[i] = "Karge"
-proflastname[i] = "Minatozaki";
+proffirstname[i] = "Christina"
+proflastname[i] = "Titor";
 profsprite[i] = spr_prof_2;
-profjob[i] = "Pro Dota Player";
-profplace[i] = "Dota University";
+profjob[i] = "CFO";
+profplace[i] = "HollowLife";
 profskill[i, 0] = "Being very good at everything";
 profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
@@ -59,8 +59,8 @@ i++;
 proffirstname[i] = "Bear"
 proflastname[i] = "Andrews";
 profsprite[i] = spr_prof_3;
-profjob[i] = "Cool";
-profplace[i] = "Very";
+profjob[i] = "Lead Designer";
+profplace[i] = "UnlimitedBraveWorks";
 profskill[i, 0] = "Being very good at everything";
 profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
@@ -69,8 +69,8 @@ i++;
 proffirstname[i] = "Acerola"
 proflastname[i] = "O'Brien";
 profsprite[i] = spr_prof_4;
-profjob[i] = "Col";
-profplace[i] = "Ver";
+profjob[i] = "Senior Researcher";
+profplace[i] = "UnderHeart";
 profskill[i, 0] = "Being very good at everything";
 profskill[i, 1] = "Being very good at everything";
 profskill[i, 2] = "Being very good at everything";
