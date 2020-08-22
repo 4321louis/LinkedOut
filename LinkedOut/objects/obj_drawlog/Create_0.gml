@@ -2,14 +2,21 @@
 // You can write your code in this editor
 
 
-var areaHeight = 0;
+var areaHeight = 10;
+
+/*
 var maxWidth = 1; 
 var maxHeight = 10;
+*/
 
 var xx = 280;
 var yy = 0;
 
 
+
+instance_create_layer(xx, yy, "Instances", obj_log);
+
+/*
 for (var i = 0; i < maxWidth; i++) {
 	for (var j = 0; j < maxHeight; j++) {
 		instance_create_layer(xx, yy, "Instances", obj_log);
@@ -24,6 +31,7 @@ for (var i = 0; i < maxWidth; i++) {
 	xx += 150;
 
 }
+*/
 
 global.areaHeight = areaHeight - room_height + (room_height/2);
 
