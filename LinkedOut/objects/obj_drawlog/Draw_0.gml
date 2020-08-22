@@ -4,10 +4,10 @@ draw_set_font(fnt_heading);
 draw_set_halign(fa_left);
 
 draw_set_font(fnt_heading);
-draw_text(200, 330, "Extracurricular Activity History");
+draw_text(230, 365, "Experience");
 
-var xx = 200;
-var yy = 380;
+var xx = 255;
+var yy = 430;
 
 
 
@@ -57,7 +57,7 @@ for (var i = global.time - 1; i > -1; i--){
 	} 
 	
 	draw_text(xx, yy, actmessage1);
-	draw_text(xx + 125, yy, actmessage);
+	draw_text(xx + 150, yy, actmessage);
 
 	yy += 20;
 }
