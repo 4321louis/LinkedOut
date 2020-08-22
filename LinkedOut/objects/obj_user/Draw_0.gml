@@ -25,5 +25,3 @@ detailedconnec = obj_info.conneccs[0] + ": " + string(global.connec[0]) + " | " 
 ": " + string(global.connec[1]) + " | " + obj_info.conneccs[2] + ": " + string(global.connec[2]) ;
 
 draw_text(x,y+45,uniinfo + "\n" + softskills + "\n" + hardskills + "\n" + connec + "\n                " + detailedconnec);
-
-draw_text(0,0,global.activlog);
