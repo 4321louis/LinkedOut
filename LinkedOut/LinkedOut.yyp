@@ -815,6 +815,14 @@
             }
         },
         {
+            "Key": "5bdab152-4dd4-4982-9d6e-b783cbbf7226",
+            "Value": {
+                "id": "80e6f218-bbfd-4642-a9dc-d4881dcc66cd",
+                "resourcePath": "sprites\\spr_course_select\\spr_course_select.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5c0e83bb-aaf4-43e9-b49b-8744292a9eff",
             "Value": {
                 "id": "83b5fa38-c2ff-4d13-97b0-05bcf3ebd9d8",
@@ -951,11 +959,27 @@
             }
         },
         {
+            "Key": "67440787-118e-4e75-aea8-15fbcfa97c02",
+            "Value": {
+                "id": "53564afa-6149-4cc0-b05f-d35619363cd8",
+                "resourcePath": "sprites\\spr_course_select1\\spr_course_select1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "675723cd-5c62-43a8-8287-a5cd261c0aef",
             "Value": {
                 "id": "f01142a8-ca81-4c32-bf6b-f5353ac96a44",
                 "resourcePath": "notes\\notes.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "68dd8c04-673f-4154-a2ac-853011eb06a9",
+            "Value": {
+                "id": "57396d6d-d630-4323-a911-4a2e9f351d39",
+                "resourcePath": "fonts\\fnt_heading1\\fnt_heading1.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -1191,6 +1215,14 @@
             }
         },
         {
+            "Key": "842b4c6b-0af3-44a3-9649-8f5f560bc3b3",
+            "Value": {
+                "id": "7f7231ae-7e47-476e-8318-667b63dc1fa3",
+                "resourcePath": "sprites\\spr_course_selectgif\\spr_course_selectgif.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8473d1c6-1a14-45d3-9938-d93f60e69144",
             "Value": {
                 "id": "5451dc95-767d-4e70-9b67-5f3616f3ecde",
@@ -1339,6 +1371,14 @@
             "Value": {
                 "id": "14a85488-f395-4ac2-a268-5b8042530847",
                 "resourcePath": "sprites\\spr_prof_0\\spr_prof_0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "948bdf80-b7db-4d9a-9522-453952967756",
+            "Value": {
+                "id": "5664d36c-2b2e-447f-b595-16676022eeb7",
+                "resourcePath": "sprites\\spr_course_selectpressed\\spr_course_selectpressed.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2044,6 +2084,14 @@
                 "id": "7fab9697-7a58-4daa-add1-077a6c52a6f2",
                 "resourcePath": "sprites\\spr_bullet2\\spr_bullet2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e6218a65-544d-4cdb-8d13-1d55278eaad1",
+            "Value": {
+                "id": "444dd574-34b2-4262-8213-88b9531698d8",
+                "resourcePath": "objects\\obj_course_select_gif\\obj_course_select_gif.yy",
+                "resourceType": "GMObject"
             }
         },
         {
