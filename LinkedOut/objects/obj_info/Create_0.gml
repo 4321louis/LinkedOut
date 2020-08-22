@@ -2,7 +2,7 @@
 // You can write your code in this editor
 #region Name labels
 course = array("Arts", "Commerce", "Design", "Science");
-soft = array("People", "Intuition", "Motivation");
+soft = array("People", "Intuition", "Motivation", "Total Motivation");
 hard = array("Politics", "Business", "Creativity", "Science");
 
 connec = "Connections";

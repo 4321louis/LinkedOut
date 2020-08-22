@@ -1023,6 +1023,14 @@
             }
         },
         {
+            "Key": "6f65f97c-576c-41b6-8c50-d07f7823adcc",
+            "Value": {
+                "id": "a533bec5-3f3a-4679-8517-68655075847d",
+                "resourcePath": "objects\\obj_calc_stat\\obj_calc_stat.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6fd6d656-d807-440f-8f2c-bcb0faad1aa1",
             "Value": {
                 "id": "f0dd49e7-581b-475c-bffe-d7ad725f89e1",
