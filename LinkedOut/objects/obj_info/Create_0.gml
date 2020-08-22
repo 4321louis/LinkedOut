@@ -194,7 +194,7 @@ i++;
 actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
   actsoftskill[i] = array(0,0,0,0);
-  acthardskill[i] = array(30,30,30,30);
+  acthardskill[i] = array(40,40,40,40);
   actconnec[i] = array(0,0,0);
 // j = 7
 j++;

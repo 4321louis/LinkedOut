@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 hard = array("P","B","C","S");
-soft = array("P","I","M");
+soft = array("P","I","M", "+M");
 
 var currentx = 194;
 var currenty =195;
