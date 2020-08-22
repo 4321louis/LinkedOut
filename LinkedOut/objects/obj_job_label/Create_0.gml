@@ -1,6 +1,7 @@
  /// @description Insert description here
 // You can write your code in this editor
 jobopen = 0;
+displayskill = 0;
 
 var i = 0;
 card[i++] = obj_job_1;

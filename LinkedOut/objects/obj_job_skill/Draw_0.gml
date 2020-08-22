@@ -15,7 +15,7 @@ if (displayskill != 0) {
 		skill += obj_info.profskill[displayskill-1, global.proflove[displayskill-1]-3]
 	} else {
 		skill +=obj_info.profskill[displayskill-1, global.proflove[displayskill-1]-2]
-	}
+	} 
 }
 
 draw_text(x+20, y+30, skill);

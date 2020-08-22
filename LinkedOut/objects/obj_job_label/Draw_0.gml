@@ -4,6 +4,7 @@
 // You can write your code in this editor
 
 #region left
+
 draw_set_font(fnt_heading);
 draw_set_halign(fa_left);
 
