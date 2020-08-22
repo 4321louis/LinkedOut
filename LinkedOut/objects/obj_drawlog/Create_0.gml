@@ -14,7 +14,7 @@ var maxHeight = 10;
 
 // array of activity messages
 actarr[0] = "Wow! What a loser? Studying hard in a SIMULATOR?? Laters virgin.";
-actarr[1] = "";
+
 
 
 // instance_create_layer(xx, yy, "Instances", obj_log);

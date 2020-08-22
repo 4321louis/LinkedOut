@@ -16,7 +16,7 @@ draw_set_font(fnt_log);
 for (var i = 0; i < global.time; i++){
 	if (global.activlog[i] == 0) {
 		// instance_create_layer(xx, yy, "Instances", obj_log);
-		actmessage = actarr[i];
+		actmessage = actarr[0];
 	} else if (global.activlog[global.time] > 0 && global.activlog[global.time] <= 4) {
 		actmessage += "You dedicated your soul to " + obj_info.actname[i];
 		
@@ -30,4 +30,5 @@ for (var i = 0; i < global.time; i++){
 		
 	} 
 	draw_text(xx, yy, actmessage);
+	yy += 30;
 }
