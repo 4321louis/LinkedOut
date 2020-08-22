@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 jobopen = 0;
 
@@ -14,3 +14,4 @@ card[i++] = obj_job_8;
 card[i++] = obj_job_9;
 card[i++] = obj_job_10;
 card[i++] = obj_job_11;
+card[i++] = obj_job_12;

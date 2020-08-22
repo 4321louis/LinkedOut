@@ -19,4 +19,8 @@ for (var i = 0; i < 6; i++) {
 	}
 }
 
+var arr = array(0,0,0,0);
+arr[global.course] = 10;
+obj_info.acthardskill[6] = arr;
+
 alarm[0] = 0.1 * room_speed;

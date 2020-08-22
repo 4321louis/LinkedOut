@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "1b7c6fb7-fc06-4fdb-863d-9a62459ea290",
+            "Value": {
+                "id": "1471650e-b737-4ffd-82fe-3648a301fd62",
+                "resourcePath": "objects\\obj_job_12\\obj_job_12.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1d06821c-0a79-4f09-9763-ec9e390e9ce2",
             "Value": {
                 "id": "3a7b4a06-aae3-487d-8b80-27ea03041cf9",

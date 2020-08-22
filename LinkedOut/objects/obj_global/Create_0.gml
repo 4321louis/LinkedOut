@@ -8,6 +8,24 @@ global.course = 0;
 
 global.soft = array(0,0,100,100);
 
+enum jobs {
+	pancake = 0,
+	volun = 1,
+	tutor = 2,
+	aintern = 3,
+	cintern = 4,
+	dintern = 5,
+	sintern = 6,
+	aprof = 7,
+	cprof = 8,
+	dprof = 9,
+	sprof = 10,
+	ryan = 11
+}
+
+global.openjobs = array(0,0,0,0,0,0,0,1,1,1,1,1);
+global.openact = array(0,0,0,0,0,0,0,0,0,0,0,0);
+
 global.connec = array(0,0,0);
 global.hard = array(0,0,0,0);
 

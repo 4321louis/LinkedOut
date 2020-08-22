@@ -15,11 +15,11 @@ period = array("Sem 1", "Winter","Sem 2", "Summer");
 // Professional A
 var i = 0;
 enum PROFESSIONALS {
-	A,
-	B,
-	C,
-	D,
-	E
+	A = 0,
+	B = 1,
+	C = 2,
+	D = 3,
+	E = 4
 }
 
 proffirstname[i] = "Ryan";
@@ -93,7 +93,8 @@ actdesc[i] = "Indulge in student club activities.";
   actsoftskill[i] = array(0,0,0,5);
   acthardskill[i] = array(25,10,5,10);
   actconnec[i] = array(0,5,5);
-  
+
+// i = 2
 i++;
 actname[i] = "Commerce Students Society";
 actdesc[i] = "Indulge in student club activities.";
@@ -101,6 +102,7 @@ actdesc[i] = "Indulge in student club activities.";
   acthardskill[i] = array(15,25,5,5);
   actconnec[i] = array(0,5,5);
   
+// i = 3
 i++;
 actname[i] = "Design Students Society";
 actdesc[i] = "Indulge in student club activities.";
@@ -108,6 +110,7 @@ actdesc[i] = "Indulge in student club activities.";
   acthardskill[i] = array(10,5,20,15);
   actconnec[i] = array(0,5,5);
 
+// i = 4
 i++;
 actname[i] = "Science Students Society";
 actdesc[i] = "Indulge in student club activities.";
@@ -115,7 +118,7 @@ actdesc[i] = "Indulge in student club activities.";
   acthardskill[i] = array(5,5,15,25);
   actconnec[i] = array(0,5,5);
 
-// i = 2, j = 0
+// i = 5, j = 0
 var j = 0;
 i++;
 actname[i] = "Volunteering";
@@ -127,7 +130,7 @@ jobname[j] = "Volunteer";
 jobplace[j] = "Teddy Bear Foundation";
 jobdesc[j] = "Want to make this world a better place? Teddy Bear Foundation is a not-for-profit organisation for kids in need and we are currently looking for volunteers! If helping others sounds like your passion, apply now!";
 
-// i = 3, j = 1
+// i = 6, j = 1
 i++;
 j++;
 actname[i] = "Tutoring";
@@ -139,24 +142,24 @@ jobname[j] = "Tutor";
 jobplace[j] = "Cringe Academy";
 jobdesc[j] = "Cringe Academy. I have no interest in ordinary students. If there are any tutors, bright students or professionals here, come join us! That is all.";
 
-// i = 4, j = 2
+// i = 7, j = 2
 i++;
 j++;
 actname[i] = "Working at PanpakaPancakes";
 actdesc[i] = "Just a casual job for poor student desperate for some quick cash.";
-  actsoftskill[i] = array(30,-5,-5,0);
+  actsoftskill[i] = array(+30,-5,-5,0);
   acthardskill[i] = array(0,0,0,0);
   actconnec[i] = array(0,0,5);
 jobname[j] = "Waitress";
 jobplace[j] = "PanpakaPancakes";
 jobdesc[j] = "Panpakapan~ We are a Japanese-styled cafe specialising in pancakes. If you love pancakes, please don't hesitate to send us an email! We will be waiting for your application.";
 
-// i = 5
+// i = 8
 i++;
 actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
   actsoftskill[i] = array(0,0,-20,0);
-  acthardskill[i] = array(30,0,0,0);
+  acthardskill[i] = array(30,30,30,30);
   actconnec[i] = array(0,0,0);
 #region intern desc
 // j = 3
@@ -186,12 +189,12 @@ jobdesc[j] = "We are looking for a student intern to assist us with COVID-19 vac
 
 #endregion
 
-// i = 6
+// i = 9
 i++;
 actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
   actsoftskill[i] = array(0,0,0,0);
-  acthardskill[i] = array(30,0,0,0);
+  acthardskill[i] = array(30,30,30,30);
   actconnec[i] = array(0,0,0);
 // j = 7
 j++;
