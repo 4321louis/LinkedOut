@@ -59,12 +59,12 @@ if (global.selectedact < 8) {
 	}
 } else if (global.selectedact < 12) {
 	hardsk = obj_info.acthardskill[8];
-	i = global.selectedact-9;
+	i = global.selectedact-8;
 			if (hardsk[i] > 0) {
-				global.hard[global.selectedact-9] += floor(intuimulti * hardsk[global.selectedact-9]);
+				global.hard[global.selectedact-8] += floor(intuimulti * hardsk[global.selectedact-8]);
 				hardchange[i] += "+" + string(floor(intuimulti *hardsk[i]));			
 			} else {
-				global.hard[global.selectedact-9] += hardsk[global.selectedact-9];
+				global.hard[global.selectedact-8] += hardsk[global.selectedact-8];
 
 				hardchange[i] += string(hardsk[i]);						
 			}

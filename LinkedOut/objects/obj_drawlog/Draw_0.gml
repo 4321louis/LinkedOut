@@ -51,10 +51,13 @@ for (var i = global.time - 1; i > -1; i--){
 		actmessage += "You spent time " + obj_info.actname[global.activlog[i]];
 		
 		
-	} else if (global.activlog[i] > 8) {
-		actmessage += "Congratulations on getting an " + obj_info.actname[8] + " " + obj_info.jobplace[global.activlog[i] - 5];
-		
-	} 
+	} else if (global.activlog[i] < 12) {
+		actmessage += "You spent time working as an intern at " + obj_info.jobplace[global.activlog[i] - 5];
+	} else if (global.activlog[i] == 12) {
+		actmessage += "You spent time working as an intern at " + obj_info.profAplace[global.course];	
+	} else {
+		actmessage += "You spent time working as an intern at " + obj_info.profplace[global.activlog[i]-12];		
+	}
 	
 	draw_text(xx, yy, actmessage1);
 	draw_text(xx + 150, yy, actmessage);
