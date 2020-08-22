@@ -36,7 +36,7 @@ global.hard = array(0,0,0,0);
 		3: 2 hearts
 		4: 3 hearts
 		5: (max) got job from person */
-global.proflove = array(1,5,4,3,2);
+global.proflove = array(1,0,0,3,2);
 global.proflove[0] = 1;
 global.selectedProfessional = obj_info.PROFESSIONALS.A;
 /* Time

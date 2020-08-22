@@ -1,4 +1,4 @@
-/// @description Insert description here
+ /// @description Insert description here
 // You can write your code in this editor
 if (obj_job_label.jobopen != 0) {
 	draw_set_halign(fa_left);

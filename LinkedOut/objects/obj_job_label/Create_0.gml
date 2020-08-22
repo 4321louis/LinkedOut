@@ -16,3 +16,13 @@ card[i++] = obj_job_9;
 card[i++] = obj_job_10;
 card[i++] = obj_job_11;
 card[i++] = obj_job_12;
+
+var currentx = 145;
+var currenty = 74;
+for (var i = 0; i < 12; i++) {
+	if (global.openjobs[i] != 0) {
+instance_create(currentx, currenty, card[i]);
+currenty += 125;
+	}
+}
+ 
