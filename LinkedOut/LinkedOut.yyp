@@ -2055,6 +2055,14 @@
             }
         },
         {
+            "Key": "c70626c2-e8b3-42ea-a87c-de7bbcb707f8",
+            "Value": {
+                "id": "3fafce78-dcd4-4ee1-a23c-5ad688084776",
+                "resourcePath": "sprites\\spr_bullet_atomosphere\\spr_bullet_atomosphere.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c737c253-70fc-4234-80fa-c5f7df539362",
             "Value": {
                 "id": "511d91ac-8223-464e-a9f3-7eb1f4097606",
