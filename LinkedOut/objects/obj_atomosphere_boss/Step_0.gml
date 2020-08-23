@@ -1,3 +1,5 @@
+/// @description Controls boss movements and attacks
+//movement
 if path_position <0.1 && !lock[0]{
 		path_speed = 0;
 		alarm[0] = 5*room_speed;

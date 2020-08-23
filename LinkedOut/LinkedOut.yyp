@@ -66,7 +66,7 @@
             "Key": "044c7fc6-5a82-4b76-ab02-7d3d8b144c62",
             "Value": {
                 "id": "7f220feb-cc1d-40f3-928f-1e1ca6123bbd",
-                "resourcePath": "objects\\obj_pancake_boss21\\obj_pancake_boss21.yy",
+                "resourcePath": "objects\\obj_oringe_boss\\obj_oringe_boss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -404,6 +404,14 @@
                 "id": "5636135d-f4a2-474a-a7ff-31a03ed89acc",
                 "resourcePath": "objects\\obj_act_16\\obj_act_16.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "23bf26ac-8e74-4094-b978-0ae0232d93e6",
+            "Value": {
+                "id": "dc3a9102-d128-4c6d-8241-3ae82f775461",
+                "resourcePath": "views\\23bf26ac-8e74-4094-b978-0ae0232d93e6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -1130,7 +1138,7 @@
             "Key": "6ee15ce8-28b7-448a-bc1b-e014ece27654",
             "Value": {
                 "id": "9256fd42-d264-4e6e-9009-5250dc021430",
-                "resourcePath": "objects\\obj_pancake_boss2\\obj_pancake_boss2.yy",
+                "resourcePath": "objects\\obj_teddy_boss\\obj_teddy_boss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1282,7 +1290,7 @@
             "Key": "7fd36108-1d36-434b-87ac-9a7823917a01",
             "Value": {
                 "id": "af6504c6-2623-4fba-b703-71c819972a79",
-                "resourcePath": "objects\\obj_pancake_boss11\\obj_pancake_boss11.yy",
+                "resourcePath": "objects\\obj_NERW_boss\\obj_NERW_boss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1626,7 +1634,7 @@
             "Key": "a57323f8-a626-4b50-8d94-cdf04810dfae",
             "Value": {
                 "id": "f5442148-2381-4e21-801f-25bfbcf35281",
-                "resourcePath": "objects\\obj_pancake_boss1obj_pancake_boss1\\obj_pancake_boss1obj_pancake_boss1.yy",
+                "resourcePath": "objects\\obj_ENAKO_boss\\obj_ENAKO_boss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1922,7 +1930,7 @@
             "Key": "c0d8af02-fcec-48b7-b817-4148f63cf548",
             "Value": {
                 "id": "5b32b03e-35c1-4c4c-a366-c25d179a5940",
-                "resourcePath": "objects\\obj_pancake_boss1\\obj_pancake_boss1.yy",
+                "resourcePath": "objects\\obj_corruption_boss\\obj_corruption_boss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2090,7 +2098,7 @@
             "Key": "d1aad1b9-a6a2-454e-abaa-877091d26630",
             "Value": {
                 "id": "8633f88a-943d-49f2-9287-333eb5ff794e",
-                "resourcePath": "objects\\obj_pancake_boss111\\obj_pancake_boss111.yy",
+                "resourcePath": "objects\\obj_atomosphere_boss\\obj_atomosphere_boss.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -2460,6 +2468,14 @@
                 "id": "1c295be3-47fa-4dcf-b130-3ed0cd7a0427",
                 "resourcePath": "scripts\\@action_kill_object\\action_kill_object.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f952fd09-b0db-4a8f-8597-a799f9eb7944",
+            "Value": {
+                "id": "ce261a34-e66d-4b5f-bc5b-ffad2b46f19f",
+                "resourcePath": "views\\f952fd09-b0db-4a8f-8597-a799f9eb7944.yy",
+                "resourceType": "GMFolder"
             }
         },
         {

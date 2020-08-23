@@ -2,7 +2,7 @@
     "id": "6ee15ce8-28b7-448a-bc1b-e014ece27654",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pancake_boss2",
+    "name": "obj_teddy_boss",
     "eventList": [
         {
             "id": "6af4b41e-cf46-4067-bd8b-6e7759b233e5",

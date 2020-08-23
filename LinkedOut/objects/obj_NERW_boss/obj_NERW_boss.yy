@@ -2,7 +2,7 @@
     "id": "7fd36108-1d36-434b-87ac-9a7823917a01",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_pancake_boss11",
+    "name": "obj_NERW_boss",
     "eventList": [
         {
             "id": "9840ee0b-fa7c-4367-bcc8-2f4a02458f3c",
