@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-hard = array("P","B","C","S");
-soft = array("P","I","M", "+M");
+hard = array("Po","B","C","S");
+soft = array("Pe","I","M", "+M");
 
 var currentx = 194;
 var currenty =195;

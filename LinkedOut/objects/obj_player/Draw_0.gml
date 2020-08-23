@@ -14,7 +14,10 @@ for (var i = 0;i<=4;i+=2) {
 	colour += floor(floor(c_red/power(16,i))%power(16,2)*(colour_dist/MAX_COLOUR_DISTANCE))*power(16,i)+floor(floor(c_lime/power(16,i))%power(16,2)*(1-colour_dist/MAX_COLOUR_DISTANCE))*power(16,i)
 }
 draw_line_width_color(x,y,boss.x,boss.y,5,colour,c_lime);
-draw_text(1240,45,gained_reputation);
+
+draw_set_halign(fa_center);
+draw_text(1230,45,gained_reputation);
+draw_set_halign(fa_left);
 
 if (global.selectedProfessional == obj_info.PROFESSIONALS.D) draw_text(1240,670,max(0,alarm[0]/room_speed));
 if (global.selectedProfessional == obj_info.PROFESSIONALS.E) draw_text(1240,670,max(0,Echarges));

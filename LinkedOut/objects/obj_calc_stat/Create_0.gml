@@ -220,16 +220,20 @@ for (var i = 0; i < 3; i++) {
 		} 
 		newjob = true;
 	}
-	if (global.time == 8) {
+	if (global.time >= 8) {
 		for (var i = 7; i <12; i++) {
 			if (global.proflove[i-7] == 4) {
+				if (global.openjobs[7] = 1 && i -8 == global.course) {
+					continue;
+				}
 				newjob = true;
 				global.openjobs[i] = 1;
 				if (i-7 == 0) {
 					global.openjobs[3+global.course] = 0;
-					global.openjobs[i+1+global.course] = 0;
 				}
+				
 				global.openjobs[i-5] = 0;
+				global.proflove[i-7]++;
 			}
 		}
 	} 

@@ -18,6 +18,9 @@ for (var i = 0; i < 5; i++) {
 			heartx = currentx + 464;
 			hearty= currenty+20;
 		for (var j = global.proflove[i]; j > 1;j--) {
+			if (j = 5) {
+				j--;
+			}
 			draw_sprite(spr_heart,image_index,heartx, hearty);
 			hearty +=30;
 		}
@@ -52,7 +55,7 @@ if (global.chatted = true) {
 if (chatopen != 0) {
 	draw_set_font(fnt_heading);
 	draw_text(722, 23,obj_info.proffirstname[chatopen-1] + " " + obj_info.proflastname[chatopen-1]);
-	if (global.proflove[chatopen-1] == 4) {
+	if (global.proflove[chatopen-1] >= 4) {
 		
 	goodjob = "I think you'd be a good fit for our team.\nWanna come work for us when you are in your\nthird year? I will arrange something on the job\nportal when you are ready.";
 	

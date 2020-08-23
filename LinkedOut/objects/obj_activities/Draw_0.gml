@@ -52,9 +52,22 @@ if (global.selectedact < 8) {
 } else if (global.selectedact == 12) {
 	hardsk = obj_info.acthardskill[9];
 	skillz += hard[global.course] + string(hardsk[global.course]) + " ";
+	
+		softsk = obj_info.actsoftskill[9];
+	for (var i = 0; i < 4; i++) {
+		if (softsk[i] != 0) {
+			skillz += soft[i] + string(softsk[i]) + " ";
+		}
+	}
 } else {
 	hardsk = obj_info.acthardskill[9];
 	skillz += hard[global.selectedact-13] + string(hardsk[global.selectedact-13]) + " ";
+		softsk = obj_info.actsoftskill[9];
+	for (var i = 0; i < 4; i++) {
+		if (softsk[i] != 0) {
+			skillz += soft[i] + string(softsk[i]) + " ";
+		}
+	}
 }
 draw_text(194+456, 97+9, skillz);
 
