@@ -16,8 +16,8 @@ for (var i = 0;i<=4;i+=2) {
 draw_line_width_color(x,y,boss.x,boss.y,5,colour,c_lime);
 draw_text(1240,45,gained_reputation);
 
-if (global.selectedProfessional == obj_info.PROFESSIONALS.D) draw_text(1240,670,max(0,alarm[0]/room_speed));
-if (global.selectedProfessional == obj_info.PROFESSIONALS.E) draw_text(1240,670,max(0,Echarges));
+if (global.selectedProfessional == obj_info.PROFESSIONALS.D) draw_text(1080,670,"Cooldown:" + string(max(0,alarm[0]/room_speed)));
+if (global.selectedProfessional == obj_info.PROFESSIONALS.E) draw_text(1080,670,"Dismissal Charges:\n"+ string(max(0, Echarges)));
 
 gained_reputation += min(2*repCoefficient*power(dist*0.01,-1.01),0.1)
 
