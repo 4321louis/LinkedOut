@@ -1943,6 +1943,14 @@
             }
         },
         {
+            "Key": "c2000dd5-0dd8-4891-8ecd-2a87da4d5ab8",
+            "Value": {
+                "id": "b369482a-3606-403e-9ac9-26e3e34b59e0",
+                "resourcePath": "sounds\\snd_wow\\snd_wow.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c24b4dc5-265a-45d4-ba86-ad41f7d24195",
             "Value": {
                 "id": "f2d005e7-d18f-46c4-8172-ec660b7be2fd",
