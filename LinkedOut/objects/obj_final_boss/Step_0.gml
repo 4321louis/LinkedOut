@@ -8,7 +8,7 @@ if path_position <0.1 && !lock[0]{
 }
 if path_position >= 0.25 && !lock[1] {
 		path_speed = 0;
-		alarm[0] = 3*room_speed;
+		alarm[0] = 5*room_speed;
 		lock[1] = true;
 		lock[2] = false;
 }
@@ -20,7 +20,7 @@ if path_position >=0.5 && !lock[2]{
 }
 if path_position >=0.75 && !lock[3]{
 		path_speed = 0;
-		alarm[0] = 3*room_speed;
+		alarm[0] = 5*room_speed;
 		lock[3] = true;
 		lock[0] = false;
 }
@@ -34,7 +34,7 @@ if alarm[0] == room_speed*4.5 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_note;
 			path_start(pth_sin, 6, path_action_continue, false);
-		    path_orientation = 0.5*i*360/bullets+0.5*360/bullets;
+		    path_orientation = 0.5*i*360/bullets+90;
 		}
 	}
 }
@@ -46,7 +46,7 @@ if alarm[0] == room_speed*3.5 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_note;
 			path_start(pth_sin, 6, path_action_continue, false);
-		    path_orientation = -0.5*i*360/bullets+0.5*360/bullets;
+		    path_orientation = -0.5*i*360/bullets+90;
 		}
 	}
 }
