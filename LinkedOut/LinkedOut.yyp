@@ -327,6 +327,14 @@
             }
         },
         {
+            "Key": "1c77f379-61cb-4cae-a6ee-f13eabd04426",
+            "Value": {
+                "id": "dc74e360-4a86-443b-bc9a-672d7777141d",
+                "resourcePath": "sounds\\job4\\job4.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1d06821c-0a79-4f09-9763-ec9e390e9ce2",
             "Value": {
                 "id": "3a7b4a06-aae3-487d-8b80-27ea03041cf9",
@@ -1359,6 +1367,14 @@
             }
         },
         {
+            "Key": "86edd37d-b619-4b30-b7cc-712d40624f55",
+            "Value": {
+                "id": "3a20c1e1-d455-4434-b2e3-17d46ef99869",
+                "resourcePath": "paths\\path4\\path4.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "88d19803-691a-4b22-bf38-8494dccbf0fb",
             "Value": {
                 "id": "b872f51e-f65d-4e26-8874-ac5d1f9f6762",
@@ -1839,6 +1855,14 @@
             }
         },
         {
+            "Key": "b6eddbfb-81f1-4aa6-ab20-dde91a11332d",
+            "Value": {
+                "id": "b11134ff-8264-4bb6-93ab-e477ba0c15ee",
+                "resourcePath": "sounds\\job2\\job2.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b9b034e8-c150-44e1-b1a4-33e3dad3ef46",
             "Value": {
                 "id": "33e91e14-1ad6-4013-b671-cb14b0351c30",
@@ -1876,6 +1900,14 @@
                 "id": "495102d2-70fb-426b-b369-a9a8cabcf151",
                 "resourcePath": "sprites\\spr_course\\spr_course.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "bd44b78d-9acc-4aa3-8d92-3c9b80c8a4bb",
+            "Value": {
+                "id": "d7d89333-c5e2-4c17-bf38-122cc0fb798d",
+                "resourcePath": "sounds\\job1\\job1.yy",
+                "resourceType": "GMSound"
             }
         },
         {

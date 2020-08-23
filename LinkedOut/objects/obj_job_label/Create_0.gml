@@ -3,6 +3,7 @@
 audio_stop_sound(snd_bullet);
 jobopen = 0;
 displayskill = 0;
+right = 1;
 
 var i = 0;
 card[i++] = obj_job_1;
