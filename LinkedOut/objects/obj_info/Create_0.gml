@@ -5,6 +5,8 @@ newgame = 1;
 main = 1;
 bullet = 0;
 
+herman = array(job1,job4,job2);
+
 #region Name labels
 course = array("Arts", "Commerce", "Design", "Science");
 soft = array("People", "Intuition", "Motivation", "Total Motivation");
@@ -224,4 +226,3 @@ coursestats[i++] = array(30, 40, 90, 50, 50, 40);
 coursestats[i++] = array(40, 40, 50, 60, 30, 80);
 
 #endregion
-room_goto(rm_menu);

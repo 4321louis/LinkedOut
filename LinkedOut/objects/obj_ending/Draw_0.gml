@@ -38,14 +38,14 @@ thestring += "Connection Score: " + string(connecscore) + " | Game Score: " + st
 
 thestring += "\n\n Thank you for playing.\n\n";
 
-thestring += "Louis Nowell-Nicole (Bullet Hell): 'thank Mark Overmars for making GM'\n"
-thestring += "Tifereth#6694 (Interface): 'I would like to thank Ryuuguu Rena for her continuous support.'\n"
-thestring += "CringeCompilation (Archbishop of Cringe): 'I thank Tifereth for doing everything.'\n"
+thestring += "Louis Nowell-Nicole (Bullet Hell): 'thank Mark Overmars for making GM'\n";
+thestring += "Tifereth#6694 (Interface): 'I would like to thank Ryuuguu Rena for her continuous support.'\n";
+thestring += "CringeCompilation (Archbishop of Cringe): 'I thank Tifereth for doing everything.'\n";
 thestring += "Kage_S (Support)\n\n";
 
-thestring += "Game, Music and Art by Team InsaneTechniques\n\n"
+thestring += "Game, Music and Art by Team InsaneTechniques\n\n";
 
-thestring += "Special thanks to Herman Wang for his voice lines and Ryan Tan for his name.\n"
+thestring += "Special thanks to Herman Wang for his voice lines, samples and Ryan Tan for his name and his iconic emote.\n";
 
 draw_text(640, y, thestring);
 draw_set_colour($212121);

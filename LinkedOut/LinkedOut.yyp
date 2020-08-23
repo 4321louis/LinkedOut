@@ -1127,6 +1127,14 @@
             }
         },
         {
+            "Key": "6c21195f-90c2-4491-9ad5-90745fee7487",
+            "Value": {
+                "id": "24bb94b2-0edd-4749-8263-b83d87283da4",
+                "resourcePath": "sounds\\snd_shoot\\snd_shoot.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6db48819-2aee-4bae-afc7-a0fabf6cd32e",
             "Value": {
                 "id": "c15ff79f-c8b5-4392-8c1c-f5bba8728492",
