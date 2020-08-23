@@ -30,7 +30,7 @@ if (global.selectedProfessional == obj_info.PROFESSIONALS.B) {
 if (boss.requiredRep*Bhelper < gained_reputation) {
 	global.openact[global.selectedLevel -1] = 1;
 	global.openjobs[global.selectedLevel -1] = 0;
-	room_goto(rm_job);
+	room_goto(rm_ending);
 }
 
 
