@@ -9,3 +9,8 @@ if ((room == rm_profile || room = rm_job) && main = 1) {
 	audio_play_sound(snd_game, 10, true);
 	main = 0;
 }
+
+if (bullet = 1) {
+	audio_play_sound(snd_bullet, 10, true);
+	bullet = 0;
+}

@@ -11,4 +11,5 @@ window_set_cursor(cr_default);
 if (obj_job_label.jobopen != 0) {
 	global.selectedLevel = obj_job_label.jobopen;
 	room_goto(rm_pancake);
+	obj_info.bullet = 1;
 }

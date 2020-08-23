@@ -1,5 +1,6 @@
  /// @description Insert description here
 // You can write your code in this editor
+audio_stop_sound(snd_bullet);
 jobopen = 0;
 displayskill = 0;
 

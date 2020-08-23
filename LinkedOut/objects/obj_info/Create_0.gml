@@ -1,8 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+
 newgame = 1;
 main = 1;
-
+bullet = 0;
 
 #region Name labels
 course = array("Arts", "Commerce", "Design", "Science");
@@ -36,8 +37,8 @@ profplace[i] = "";
 	profAplace[2] = "Besters Designs";
 	profAplace[3] = "Besters Engineering";
 profskill[i, 0] = "Increases long range reputation gain";
-profskill[i, 1] = "Greatly increases long range reputation gain";
-profskill[i, 2] = "Massively increases long range reputation gain";
+profskill[i, 1] = "Greatly increases long range reputation\ngain";
+profskill[i, 2] = "Massively increases long range reputation\ngain";
 
 i++;
 proffirstname[i] = "Karge"
@@ -45,9 +46,9 @@ proflastname[i] = "Minatozaki";
 profsprite[i] = spr_prof_1;
 profjob[i] = "Legal Advisor";
 profplace[i] = "Dota University";
-profskill[i, 0] = "Less reputation needed to complete an interview";
-profskill[i, 1] = "Even less reputation needed to complete an interview";
-profskill[i, 2] = "Even even less reputation needed to complete an interview";
+profskill[i, 0] = "Less reputation needed to complete an\ninterview";
+profskill[i, 1] = "Even less reputation needed to complete\nan interview";
+profskill[i, 2] = "Even even less reputation needed to\ncomplete an interview";
 
 i++;
 proffirstname[i] = "Christina"
@@ -56,8 +57,8 @@ profsprite[i] = spr_prof_2;
 profjob[i] = "CFO";
 profplace[i] = "HollowLife";
 profskill[i, 0] = "Lose less reputation when hit by a bullet";
-profskill[i, 1] = "Lose even less reputation when hit by a bullet";
-profskill[i, 2] = "Lose even even less reputation when hit by a bullet";
+profskill[i, 1] = "Lose even less reputation when hit by a\nbullet";
+profskill[i, 2] = "Lose even even less reputation when hit\nby a bullet";
 
 i++;
 proffirstname[i] = "Bear"
@@ -223,3 +224,4 @@ coursestats[i++] = array(30, 40, 90, 50, 50, 40);
 coursestats[i++] = array(40, 40, 50, 60, 30, 80);
 
 #endregion
+room_goto(rm_menu);

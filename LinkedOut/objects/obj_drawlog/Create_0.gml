@@ -13,7 +13,7 @@ var maxHeight = 10;
 
 
 // array of activity messages
-actarr[0] = "Wow! What a loser? Studying hard in a SIMULATOR?? Laters virgin.";
+actarr[0] = "Wow! Studying hard in a SIMULATOR??";
 
 
 
