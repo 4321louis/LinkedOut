@@ -8,3 +8,4 @@ if (global.openjobs[global.selectedLevel -1] = 0) {
 } else {
 	draw_text(x,y,"The interviewer wasn't happy with your performance.\nTry again next time.");
 }
+
