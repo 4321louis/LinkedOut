@@ -24,7 +24,7 @@ if alarm[0] == room_speed*4.5 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil1;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets+0.5*360/bullets;
 		}
@@ -34,7 +34,7 @@ if alarm[0] == room_speed*4 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil2;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets;
 		}
@@ -44,7 +44,7 @@ if alarm[0] == room_speed*3.5 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil1;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets+0.5*360/bullets;
 		}
@@ -54,7 +54,7 @@ if alarm[0] == room_speed*3 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil2;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets;
 		}
@@ -64,7 +64,7 @@ if alarm[0] == room_speed*2.5 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil1;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets+0.5*360/bullets;
 		}
@@ -74,7 +74,7 @@ if alarm[0] == room_speed*2 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil2;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets;
 		}
@@ -84,7 +84,7 @@ if alarm[0] == room_speed*1.5 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil1;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets+0.5*360/bullets;
 		}
@@ -95,7 +95,7 @@ if alarm[0] == room_speed*1 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil2;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets;
 		}
@@ -106,7 +106,7 @@ if alarm[0] == room_speed*0.5 {
 	var bullets = 8;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_fork;
+			sprite_index = spr_bullet_pencil1;
 			path_start(pth_line, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets+0.5*360/bullets;
 		}
