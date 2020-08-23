@@ -32,7 +32,7 @@ if alarm[0] == room_speed*4.5 {
 		audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_note;
+			sprite_index = spr_bullet_bit;
 			path_start(pth_sin, 6, path_action_continue, false);
 		    path_orientation = 0.5*i*360/bullets+0.5*360/bullets;
 		}
@@ -44,7 +44,7 @@ if alarm[0] == room_speed*3.5 {
 
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_note;
+			sprite_index = spr_bullet_bit;
 			path_start(pth_sin, 6, path_action_continue, false);
 		    path_orientation = -0.5*i*360/bullets+0.5*360/bullets;
 		}
@@ -56,7 +56,7 @@ if alarm[0] == room_speed*2.5 {
 
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_note;
+			sprite_index = spr_bullet_bit;
 			path_start(pth_sin, 6, path_action_continue, false);
 		    path_orientation = 0.5*i*360/bullets;
 		}
@@ -67,7 +67,7 @@ if alarm[0] == room_speed*1.5 {
 			audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_note;
+			sprite_index = spr_bullet_bit;
 			path_start(pth_sin, 6, path_action_continue, false);
 		    path_orientation = -0.5*i*360/bullets;
 		}
@@ -79,7 +79,7 @@ if alarm[0] == room_speed*0.5 {
 			audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
-			sprite_index = spr_bullet_note;
+			sprite_index = spr_bullet_bit;
 			path_start(pth_sin, 6, path_action_continue, false);
 		    path_orientation = i*360/bullets;
 		}

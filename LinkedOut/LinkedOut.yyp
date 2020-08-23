@@ -1375,6 +1375,14 @@
             }
         },
         {
+            "Key": "84f8a208-9087-4676-94bb-b42da9dfc607",
+            "Value": {
+                "id": "fd41c11c-48cd-4b69-88fe-c8d03cd6045c",
+                "resourcePath": "sprites\\spr_bullet_bit\\spr_bullet_bit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "85bdd0ef-1962-494d-bb6c-d236995b6319",
             "Value": {
                 "id": "b165281d-bb61-4d1a-86d0-61bda2ba28c8",
