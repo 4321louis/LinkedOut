@@ -40,6 +40,8 @@ if path_position >= 0.86007252984 && !lock[5]{
 //attacks
 if alarm[0] == room_speed*4.5 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
+	audio_play_sound(obj_info.herman[herwoman++ mod 3], 9, false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil1;
@@ -50,6 +52,7 @@ if alarm[0] == room_speed*4.5 {
 }
 if alarm[0] == room_speed*4 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil2;
@@ -60,6 +63,7 @@ if alarm[0] == room_speed*4 {
 }
 if alarm[0] == room_speed*3.5 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil1;
@@ -70,6 +74,7 @@ if alarm[0] == room_speed*3.5 {
 }
 if alarm[0] == room_speed*3 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil2;
@@ -80,6 +85,7 @@ if alarm[0] == room_speed*3 {
 }
 if alarm[0] == room_speed*2.5 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil1;
@@ -90,6 +96,7 @@ if alarm[0] == room_speed*2.5 {
 }
 if alarm[0] == room_speed*2 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil2;
@@ -100,6 +107,7 @@ if alarm[0] == room_speed*2 {
 }
 if alarm[0] == room_speed*1.5 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil1;
@@ -111,6 +119,7 @@ if alarm[0] == room_speed*1.5 {
 
 if alarm[0] == room_speed*1 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil2;
@@ -122,6 +131,7 @@ if alarm[0] == room_speed*1 {
 
 if alarm[0] == room_speed*0.5 {
 	var bullets = 8;
+	audio_play_sound(snd_shoot,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_pencil1;
