@@ -11,8 +11,8 @@ if (other.alarm[0]<=0) {
 	gained_reputation = max(0,gained_reputation-6/(defence+1));
 	global.soft[2]-=1;
 	if (global.soft[2]<=0) {
-		room_goto(rm_bulletdone);
 		global.soft[2] = 0;
+		room_goto(rm_bulletdone);
 	}
 	
 }
