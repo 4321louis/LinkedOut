@@ -23,6 +23,16 @@
             "enumb": 1,
             "eventtype": 2,
             "m_owner": "e79c3570-5253-44ec-986c-6e53ebaad5e0"
+        },
+        {
+            "id": "10359617-4065-4653-8b67-af8f8e674f3c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "e79c3570-5253-44ec-986c-6e53ebaad5e0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -52,7 +62,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "40",
+            "value": "30",
             "varName": "requiredRep",
             "varType": 0
         },
@@ -66,7 +76,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "40",
+            "value": "60",
             "varName": "fightTime",
             "varType": 0
         }

@@ -11,8 +11,12 @@
         "2944cfc3-e366-4d8f-8d38-7e91af68b9c0",
         "0cb691de-0044-473e-aa09-2451b6cb81ca",
         "e95cb1c4-5ec9-432b-88ab-c45da5533f3f",
+<<<<<<< HEAD
         "ab2cbd93-2679-490a-a736-27a79c567248",
         "c70626c2-e8b3-42ea-a87c-de7bbcb707f8"
+=======
+        "e68f91d0-83b3-4fec-aa33-ccb6f80e863b"
+>>>>>>> cd2176d66e84feff74590bc61b94eee29075b02e
     ],
     "filterType": "GMSprite",
     "folderName": "bullethell",

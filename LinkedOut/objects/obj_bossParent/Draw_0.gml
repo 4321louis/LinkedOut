@@ -1,3 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-room_goto(rm_bulletdone);
+draw_text(1240,15,floor(alarm[1]/room_speed));
+draw_self();

@@ -8,7 +8,7 @@ if (other.alarm[0]<=0) {
 		if (global.proflove[2]==4) var defence=17;
 	}
 	else var defence=5;
-	gained_reputation = max(0,gained_reputation-18/(defence+1));
+	gained_reputation = max(0,gained_reputation-6/(defence+1));
 	global.soft[2]-=1;
 	
 }
