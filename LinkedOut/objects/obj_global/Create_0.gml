@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+
 #region Character stats
 global.name = "";
 global.uni = "";
@@ -41,7 +43,7 @@ global.hard = array(0,0,0,0);
 		2: 1 heart
 		3: 2 hearts
 		4: 3 hearts */
-global.proflove = array(1,1,1,1,1);
+global.proflove = array(1,0,0,0,0);
 global.proflove[0] = 1;
 global.selectedProfessional = obj_info.PROFESSIONALS.A;
 /* Time

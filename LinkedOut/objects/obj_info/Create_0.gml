@@ -1,5 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
+newgame = 1;
+main = 1;
+
+
 #region Name labels
 course = array("Arts", "Commerce", "Design", "Science");
 soft = array("People", "Intuition", "Motivation", "Total Motivation");

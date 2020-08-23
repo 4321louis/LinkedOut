@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
+audio_stop_sound(snd_game);
+obj_info.main = 1;
+
 window_set_cursor(cr_default);
 
 // Debugging, this code goes into bullet hell (if passed turn off/on);
