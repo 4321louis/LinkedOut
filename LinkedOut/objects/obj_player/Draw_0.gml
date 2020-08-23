@@ -22,7 +22,11 @@ gained_reputation += min(repCoefficient*power(dist*0.01,-1.1),0.1)
 
 //win
 var Bhelper = 1;
-if (global.selectedProfessional == obj_info.PROFESSIONALS.B) Bhelper=0.8;
+if (global.selectedProfessional == obj_info.PROFESSIONALS.B) {
+	if (global.proflove[1]==2) Bhelper=0.95;
+	if (global.proflove[1]==3) Bhelper=0.9;
+	if (global.proflove[1]==4) Bhelper=0.85;
+}
 if (boss.requiredRep*Bhelper < gained_reputation) {
 	global.openact[global.selectedLevel -1] = 1;
 	global.openjobs[global.selectedLevel -1] = 0;

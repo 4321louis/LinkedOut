@@ -9,14 +9,19 @@ if (keyboard_check(vk_space)&&alarm[0]<=0) {
 		break;
 		case obj_info.PROFESSIONALS.D:
 			sped = sped*14;
+			if (global.proflove[3]==2) alarm[0]=10*room_speed;
+			if (global.proflove[3]==3) alarm[0]=8*room_speed;
+			if (global.proflove[3]==4) alarm[0]=5*room_speed;
 		break;
 		case obj_info.PROFESSIONALS.E:
-			while(0 < instance_number(obj_bullet)) {
-				instance_destroy(instance_find(obj_bullet,0));
+			if (Echarges>0) {
+				Echarges-=1;
+				while(0 < instance_number(obj_bullet)) {
+					instance_destroy(instance_find(obj_bullet,0));
+				}
 			}
 		break;
 	}
-	alarm[0]=10*room_speed
 	#endregion
 }
 if keyboard_check(ord("W"))||keyboard_check(vk_up) y-=sped;

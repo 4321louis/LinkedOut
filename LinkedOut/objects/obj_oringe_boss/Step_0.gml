@@ -21,12 +21,12 @@ if path_position >=0.69958491742 && !lock[2]{
 
 //attacks
 if alarm[0] == room_speed*4.5 {
-	var bullets = 8;
+	var bullets = 6;
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets+0.5*360/bullets;
+		    path_orientation = 0.5*i*360/bullets+1*360/bullets;
 		}
 	}
 }
@@ -36,7 +36,7 @@ if alarm[0] == room_speed*4 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets+0.5*360/bullets;
+		    path_orientation = i*360/bullets+2*360/bullets;
 		}
 	}
 }
@@ -46,7 +46,7 @@ if alarm[0] == room_speed*3.5 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets;
+		    path_orientation = i*360/bullets+3*360/bullets;
 		}
 	}
 }
@@ -56,7 +56,7 @@ if alarm[0] == room_speed*3 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets;
+		    path_orientation = i*360/bullets+4*360/bullets;
 		}
 	}
 }
@@ -66,7 +66,7 @@ if alarm[0] == room_speed*2.5 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets+0.5*360/bullets;
+		    path_orientation = i*360/bullets+5*360/bullets;
 		}
 	}
 }
@@ -76,7 +76,7 @@ if alarm[0] == room_speed*2 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets+0.5*360/bullets;
+		    path_orientation = i*360/bullets+6*360/bullets;
 		}
 	}
 }
@@ -86,7 +86,7 @@ if alarm[0] == room_speed*1.5 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets;
+		    path_orientation = i*360/bullets+7*360/bullets;
 		}
 	}
 }
@@ -97,7 +97,7 @@ if alarm[0] == room_speed*1 {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
 			path_start(pth_line, 6, path_action_continue, false);
-		    path_orientation = i*360/bullets;
+		    path_orientation = i*360/bullets+8*360/bullets;
 		}
 	}
 }
