@@ -39,8 +39,8 @@ thestring += "Connection Score: " + string(connecscore) + " | Game Score: " + st
 thestring += "\n\n Thank you for playing.\n\n";
 
 thestring += "Louis Nowell-Nicole (Bullet Hell): 'thank Mark Overmars for making GM'\n"
-thestring += "Cathrine Geng (Interface): 'I would like to thank Ryuuguu Rena for her continuous support.'\n"
-thestring += "Jeeng Hao Low (Cringe): '(Insert very lame joke)'\n"
+thestring += "Tifereth#6694 (Interface): 'I would like to thank Ryuuguu Rena for her continuous support.'\n"
+thestring += "CringeCompilation (Archbishop of Cringe): 'I thank Tifereth for doing everything.'\n"
 thestring += "Kage_S (Support)\n\n";
 
 thestring += "Game, Music and Art by Team InsaneTechniques\n\n"
