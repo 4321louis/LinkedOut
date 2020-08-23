@@ -18,8 +18,10 @@ if path_position >=0.69958491742 && !lock[2]{
 }
 
 //attacks
+var herwoman = 0;
 if alarm[0] == room_speed*4.5 {
 	var bullets = 8;
+	audio_play_sound(snd_bullet,9,false);
 	for (var i = 0; i < bullets; i += 1) {
 		with (instance_create(x,y,obj_bullet)) {
 			sprite_index = spr_bullet_fork;
