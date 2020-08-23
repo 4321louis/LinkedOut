@@ -1,8 +1,8 @@
 {
-    "id": "86edd37d-b619-4b30-b7cc-712d40624f55",
+    "id": "94b56cdc-9393-44a7-89f0-c8dca9007277",
     "modelName": "GMPath",
     "mvc": "1.0",
-    "name": "path4",
+    "name": "pth_hourglass",
     "closed": false,
     "hsnap": 0,
     "kind": 0,

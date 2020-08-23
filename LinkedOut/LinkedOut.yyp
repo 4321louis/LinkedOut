@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "0af31b40-7868-45a5-bf27-80e16fda73b3",
+            "Value": {
+                "id": "be91fc11-660d-4153-8830-f3660593c2cc",
+                "resourcePath": "paths\\pth_infinity\\pth_infinity.yy",
+                "resourceType": "GMPath"
+            }
+        },
+        {
             "Key": "0be4fcff-b6f1-4a12-af3c-a6cc8cf8b370",
             "Value": {
                 "id": "f9d6321e-d472-4039-a789-971a2c609a7a",
@@ -1370,7 +1378,7 @@
             "Key": "86edd37d-b619-4b30-b7cc-712d40624f55",
             "Value": {
                 "id": "3a20c1e1-d455-4434-b2e3-17d46ef99869",
-                "resourcePath": "paths\\path4\\path4.yy",
+                "resourcePath": "paths\\pth_square\\pth_square.yy",
                 "resourceType": "GMPath"
             }
         },
@@ -1500,6 +1508,14 @@
                 "id": "5664d36c-2b2e-447f-b595-16676022eeb7",
                 "resourcePath": "sprites\\spr_course_selectpressed\\spr_course_selectpressed.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "94b56cdc-9393-44a7-89f0-c8dca9007277",
+            "Value": {
+                "id": "2954c483-b10c-4dbf-a76a-4453fec87cd7",
+                "resourcePath": "paths\\pth_hourglass\\pth_hourglass.yy",
+                "resourceType": "GMPath"
             }
         },
         {
