@@ -1,12 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 #region printing n adding stats
-intuimulti = (2 / 3.14) * arctan (0.002 * (global.soft[1] - 60)) + 1;
-peopmulti = (2 / 3.14) * arctan (0.004 * (global.soft[0] - 60)) + 1.5;
-if (global.soft[1] < 60) {
+intuimulti = (2 / 3.14) * arctan (0.008 * (global.soft[1] - 60)) + 1;
+peopmulti = (8 / 3.14) * arctan (0.012 * (global.soft[0] - 60)) + 1;
+if (global.soft[1] <= 60) {
 	intuimulti = 1;
 }
-if (global.soft[0] < 60) {
+if (global.soft[0] <= 60) {
 	peopmulti = 1;
 }
 
@@ -131,6 +131,26 @@ if (global.selectedact < 8) {
 
 				hardchange[i] += string(hardsk[i]);						
 			}
+			
+	softsk = obj_info.actsoftskill[9];
+	for (var i = 0; i < 4; i++) {
+		if (softsk[i] != 0) {
+									if (softsk[i] > 0) {
+				if (i != 2 && i != 3) {
+				global.soft[i] += floor(intuimulti *softsk[i]);
+				softchange[i] += "+" + string(floor(intuimulti *softsk[i]));			
+				} else {
+					
+					global.soft[i] += softsk[i];
+					softchange[i] += "+" + string(softsk[i]);
+				}
+	
+			} else {
+				global.soft[i] += softsk[i];
+				softchange[i] += string(softsk[i]);						
+			}
+		}
+	}
 }
 
 if (global.soft[2] > global.soft[3]) {
@@ -197,7 +217,7 @@ for (var i = 0; i < 3; i++) {
 		}
 		for (var i = 3; i <7; i++) {
 			global.openjobs[i] = 1;
-		}
+		} 
 		newjob = true;
 	}
 	if (global.time == 8) {
@@ -215,6 +235,36 @@ for (var i = 0; i < 3; i++) {
 	} 
 	
 	jobtxt = "There are new jobs available for you to apply."
-	
+#endregion
+
+#region open prof
 	global.chatted = false;
+	newprof = false;
+	
+	if (global.hard[0] > 60 && global.hard[1] > 60 && global.proflove[1] == 0) {
+		newprof = true;
+		global.connec[0]++;
+		global.proflove[1] = 1;
+	}
+	
+	if (global.hard[1] > 80 && global.proflove[2] == 0) {
+		newprof = true;
+		global.connec[0]++;
+		global.proflove[2] = 1;
+	}
+	
+	if (global.hard[2] > 110 && global.proflove[3] == 0) {
+		newprof = true;
+		global.connec[0]++;
+		global.proflove[3] = 1;
+	}
+	
+	if (global.hard[3] >100 && global.proflove[4] == 0) {
+		newprof = true;
+		global.connec[0]++;
+		global.proflove[4] = 1;
+	}
+	
+	proftxt = "There are new professional available to connect with."
+	
 #endregion

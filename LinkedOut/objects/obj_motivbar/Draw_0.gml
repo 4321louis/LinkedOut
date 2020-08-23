@@ -10,4 +10,12 @@ motivstr = obj_info.soft[2] + ": " + string(global.soft[2]) + "/" + string(globa
 draw_set_halign(fa_left);
 draw_set_font(fnt_text);
 
+if (motivcheck = true) {
+	motivstr = "Not enough motivation to execute task!"
+}
+
 draw_text_transformed(x-30, y+500, motivstr, 1, 1, 90);
+
+if (motivcheck = true) {
+	draw_text_transformed(x+7, y+493, "Consider joining a club or volunteering", 1,1,90);
+} 

@@ -90,7 +90,7 @@ actdesc[i] = "Focus on your studies to earn good grades for the semester.";
 i++;
 actname[i] = "Arts Students Society";
 actdesc[i] = "Indulge in student club activities.";
-  actsoftskill[i] = array(0,0,0,5);
+  actsoftskill[i] = array(0,0,1,5);
   acthardskill[i] = array(25,10,5,10);
   actconnec[i] = array(0,5,5);
 
@@ -98,7 +98,7 @@ actdesc[i] = "Indulge in student club activities.";
 i++;
 actname[i] = "Commerce Students Society";
 actdesc[i] = "Indulge in student club activities.";
-  actsoftskill[i] = array(0,0,0,5);
+  actsoftskill[i] = array(0,0,1,5);
   acthardskill[i] = array(15,25,5,5);
   actconnec[i] = array(0,5,5);
   
@@ -106,7 +106,7 @@ actdesc[i] = "Indulge in student club activities.";
 i++;
 actname[i] = "Design Students Society";
 actdesc[i] = "Indulge in student club activities.";
-  actsoftskill[i] = array(0,0,0,5);
+  actsoftskill[i] = array(0,0,1,5);
   acthardskill[i] = array(10,5,20,15);
   actconnec[i] = array(0,5,5);
 
@@ -114,7 +114,7 @@ actdesc[i] = "Indulge in student club activities.";
 i++;
 actname[i] = "Science Students Society";
 actdesc[i] = "Indulge in student club activities.";
-  actsoftskill[i] = array(0,0,0,5);
+  actsoftskill[i] = array(0,0,1,5);
   acthardskill[i] = array(5,5,15,25);
   actconnec[i] = array(0,5,5);
 
@@ -158,9 +158,9 @@ jobdesc[j] = "Panpakapan~\n\nWe are a Japanese-styled cafe specialising in\npanc
 i++;
 actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
-  actsoftskill[i] = array(0,0,-20,0);
+  actsoftskill[i] = array(0,0,-30,0);
   acthardskill[i] = array(40,40,40,40);
-  actconnec[i] = array(5,10,0);
+  actconnec[i] = array(5,5,0);
 #region intern desc
 // j = 3
 j++;
@@ -193,9 +193,9 @@ jobdesc[j] = "We are looking for a student intern to assist us\nwith COVID-19 va
 i++;
 actname[i] = "Internship at ";
 actdesc[i] = "Student internship for industry experience.";
-  actsoftskill[i] = array(0,0,0,0);
+  actsoftskill[i] = array(0,0,-20,0);
   acthardskill[i] = array(40,40,40,40);
-  actconnec[i] = array(10,10,0);
+  actconnec[i] = array(5,5,0);
 // j = 7
 j++;
 jobname[j] = "Student Intern";

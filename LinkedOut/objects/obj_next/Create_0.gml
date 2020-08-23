@@ -12,5 +12,9 @@ if (room != rm_next) {
 	} else if (global.selectedact == 12) {	
 		softsk = obj_info.actsoftskill[9];
 		motivcost = softsk[2];
+	} else {
+	softsk = obj_info.actsoftskill[9];
+	motivcost = softsk[2];
 	}
+
 }

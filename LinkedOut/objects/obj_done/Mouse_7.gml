@@ -15,11 +15,13 @@ if (global.selectedact < 8) {
 	softsk = obj_info.actsoftskill[9];
 	motivcost = softsk[2];
 } else {
-	motivcost = 0;
+	softsk = obj_info.actsoftskill[9];
+	motivcost = softsk[2];
 }
 
-if (global.soft[2] + motivcost >= 0) {
+if ((global.soft[2] + motivcost >= 0 && global.soft[2] != 0) || (global.soft[2] == 0 && motivcost > 0)) {
+	obj_motivbar.motivcheck=false;
 	room_goto(rm_profile);
 } else {
-	draw_text(0,0, "no motivation");
+	obj_motivbar.motivcheck=true;
 }
