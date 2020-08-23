@@ -33,7 +33,7 @@ if (obj_job_label.jobopen != 0) {
 			room_goto(rm_NERW);
 			break;
 		default:
-			room_goto(rm_NERW);
+			room_goto(rm_Final);
 			break;
 	}
 	obj_info.bullet = 1;
