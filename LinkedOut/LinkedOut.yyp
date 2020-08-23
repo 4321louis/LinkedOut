@@ -1735,6 +1735,14 @@
             }
         },
         {
+            "Key": "ab2cbd93-2679-490a-a736-27a79c567248",
+            "Value": {
+                "id": "9ecb2590-49c5-455d-96ca-0bc3f438c0fb",
+                "resourcePath": "sprites\\spr_bullet_teddybear\\spr_bullet_teddybear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab695d76-ceb6-4040-85b6-f3624786f70f",
             "Value": {
                 "id": "733a3add-44dc-4d29-ac15-a0c63f6960e8",
