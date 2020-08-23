@@ -10,10 +10,6 @@ if (other.alarm[0]<=0) {
 	else var defence=5;
 	gained_reputation = max(0,gained_reputation-6/(defence+1));
 	global.soft[2]-=1;
-	if (global.soft[2]<=0) {
-		global.soft[2]=0;
-		room_goto(rm_bulletdone);
-	}
 	
 }
 other.alarm[0] = 0.2*room_speed;
