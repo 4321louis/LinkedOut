@@ -30,7 +30,7 @@ global.activlog = array(0,0,0,0,0,0,0,0,0,0,0,0);
 global.chatted = false;
 
 global.openjobs = array(1,1,1,0,0,0,0,0,0,0,0,0);
-global.openact = array(1,1,1,1,1,1,1,1,1,1,1,1);
+global.openact = array(0,0,0,0,0,0,0,0,0,0,0,0);
 
 global.connec = array(1,0,4);
 global.hard = array(0,0,0,0);
