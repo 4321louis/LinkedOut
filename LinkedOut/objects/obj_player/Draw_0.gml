@@ -19,8 +19,8 @@ draw_set_halign(fa_center);
 draw_text(1230,45,gained_reputation);
 draw_set_halign(fa_left);
 
-if (global.selectedProfessional == obj_info.PROFESSIONALS.D) draw_text(1240,670,max(0,alarm[0]/room_speed));
-if (global.selectedProfessional == obj_info.PROFESSIONALS.E) draw_text(1240,670,max(0,Echarges));
+if (global.selectedProfessional == obj_info.PROFESSIONALS.D) draw_text(1080,670,"Cooldown:" + string(max(0,alarm[0]/room_speed)));
+if (global.selectedProfessional == obj_info.PROFESSIONALS.E) draw_text(1080,670,"Dismissal Charges:\n"+ string(max(0, Echarges)));
 
 gained_reputation += min(2*repCoefficient*power(dist*0.01,-1.01),0.1)
 

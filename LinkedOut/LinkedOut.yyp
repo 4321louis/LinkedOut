@@ -1735,6 +1735,14 @@
             }
         },
         {
+            "Key": "ab2cbd93-2679-490a-a736-27a79c567248",
+            "Value": {
+                "id": "9ecb2590-49c5-455d-96ca-0bc3f438c0fb",
+                "resourcePath": "sprites\\spr_bullet_teddybear\\spr_bullet_teddybear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ab695d76-ceb6-4040-85b6-f3624786f70f",
             "Value": {
                 "id": "733a3add-44dc-4d29-ac15-a0c63f6960e8",
@@ -1835,14 +1843,6 @@
             "Value": {
                 "id": "21d17253-a1f8-4c54-84ff-fcf5534d0e3d",
                 "resourcePath": "views\\b20c49e6-84b9-4d58-9c3e-4733f05c9291.yy",
-                "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "b215b1a3-4b20-468a-a414-6f3a24ecdaf5",
-            "Value": {
-                "id": "97ea13a2-e99f-4e5e-8170-2205d434bd8c",
-                "resourcePath": "views\\b215b1a3-4b20-468a-a414-6f3a24ecdaf5.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -2044,6 +2044,14 @@
                 "id": "0adcc893-4d50-4870-8031-28e4c484cad9",
                 "resourcePath": "objects\\obj_skill_1\\obj_skill_1.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "c70626c2-e8b3-42ea-a87c-de7bbcb707f8",
+            "Value": {
+                "id": "3fafce78-dcd4-4ee1-a23c-5ad688084776",
+                "resourcePath": "sprites\\spr_bullet_atomosphere\\spr_bullet_atomosphere.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
