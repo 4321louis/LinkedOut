@@ -19,6 +19,7 @@ if (keyboard_check(vk_space)&&alarm[0]<=0) {
 				while(0 < instance_number(obj_bullet)) {
 					instance_destroy(instance_find(obj_bullet,0));
 				}
+				alarm[0]=1*room_speed;
 			}
 		break;
 	}
