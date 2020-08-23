@@ -68,9 +68,9 @@ proflastname[i] = "Andrews";
 profsprite[i] = spr_prof_3;
 profjob[i] = "Lead Designer";
 profplace[i] = "UnlimitedBraveWorks";
-profskill[i, 0] = "Blink with a 10 second cooldown";
-profskill[i, 1] = "Blink with a 8 second cooldown";
-profskill[i, 2] = "Blink with a 5 second cooldown";
+profskill[i, 0] = "Blink with a 10 second cooldown\n Press SPACE to activate!";
+profskill[i, 1] = "Blink with a 8 second cooldown\n Press SPACE to activate!";
+profskill[i, 2] = "Blink with a 5 second cooldown\n Press SPACE to activate!";
 
 i++;
 proffirstname[i] = "Acerola"
@@ -78,9 +78,9 @@ proflastname[i] = "O'Brien";
 profsprite[i] = spr_prof_4;
 profjob[i] = "Senior Researcher";
 profplace[i] = "UnderHeart";
-profskill[i, 0] = "1 charge of dismissal";
-profskill[i, 1] = "2 charges of dismissal";
-profskill[i, 2] = "3 charges of dismissal";
+profskill[i, 0] = "1 charge of dismissal that clears all bullets\n Press SPACE to activate!";
+profskill[i, 1] = "2 charges of dismissal that clears all bullets\n Press SPACE to activate!";
+profskill[i, 2] = "3 charges of dismissal that clears all bullets\n Press SPACE to activate!";
 #endregion
 
 #region activities and jobs

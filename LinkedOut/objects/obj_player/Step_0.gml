@@ -11,7 +11,7 @@ if (keyboard_check(vk_space)&&alarm[0]<=0) {
 			sped = sped*14;
 			if (global.proflove[3]==2) alarm[0]=10*room_speed;
 			if (global.proflove[3]==3) alarm[0]=8*room_speed;
-			if (global.proflove[3]==4) alarm[0]=5*room_speed;
+			if (global.proflove[3]>=4) alarm[0]=5*room_speed;
 		break;
 		case obj_info.PROFESSIONALS.E:
 			if (Echarges>0) {
