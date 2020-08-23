@@ -31,9 +31,9 @@ profplace[i] = "";
 	profAplace[1] = "Besters Company";
 	profAplace[2] = "Besters Designs";
 	profAplace[3] = "Besters Engineering";
-profskill[i, 0] = "Being very good at everything";
-profskill[i, 1] = "Being very good at everything";
-profskill[i, 2] = "Being very good at everything";
+profskill[i, 0] = "Increases long range reputation gain";
+profskill[i, 1] = "Greatly increases long range reputation gain";
+profskill[i, 2] = "Massively increases long range reputation gain";
 
 i++;
 proffirstname[i] = "Karge"
@@ -41,9 +41,9 @@ proflastname[i] = "Minatozaki";
 profsprite[i] = spr_prof_1;
 profjob[i] = "Legal Advisor";
 profplace[i] = "Dota University";
-profskill[i, 0] = "Being very good at everything";
-profskill[i, 1] = "Being very good at everything";
-profskill[i, 2] = "Being very good at everything";
+profskill[i, 0] = "Less reputation needed to complete an interview";
+profskill[i, 1] = "Even less reputation needed to complete an interview";
+profskill[i, 2] = "Even even less reputation needed to complete an interview";
 
 i++;
 proffirstname[i] = "Christina"
@@ -51,9 +51,9 @@ proflastname[i] = "Titor";
 profsprite[i] = spr_prof_2;
 profjob[i] = "CFO";
 profplace[i] = "HollowLife";
-profskill[i, 0] = "Being very good at everything";
-profskill[i, 1] = "Being very good at everything";
-profskill[i, 2] = "Being very good at everything";
+profskill[i, 0] = "Lose less reputation when hit by a bullet";
+profskill[i, 1] = "Lose even less reputation when hit by a bullet";
+profskill[i, 2] = "Lose even even less reputation when hit by a bullet";
 
 i++;
 proffirstname[i] = "Bear"
@@ -61,9 +61,9 @@ proflastname[i] = "Andrews";
 profsprite[i] = spr_prof_3;
 profjob[i] = "Lead Designer";
 profplace[i] = "UnlimitedBraveWorks";
-profskill[i, 0] = "Being very good at everything";
-profskill[i, 1] = "Being very good at everything";
-profskill[i, 2] = "Being very good at everything";
+profskill[i, 0] = "Blink with a 10 second cooldown";
+profskill[i, 1] = "Blink with a 8 second cooldown";
+profskill[i, 2] = "Blink with a 5 second cooldown";
 
 i++;
 proffirstname[i] = "Acerola"
@@ -71,9 +71,9 @@ proflastname[i] = "O'Brien";
 profsprite[i] = spr_prof_4;
 profjob[i] = "Senior Researcher";
 profplace[i] = "UnderHeart";
-profskill[i, 0] = "Being very good at everything";
-profskill[i, 1] = "Being very good at everything";
-profskill[i, 2] = "Being very good at everything";
+profskill[i, 0] = "1 charge of dismissal";
+profskill[i, 1] = "2 charges of dismissal";
+profskill[i, 2] = "3 charges of dismissal";
 #endregion
 
 #region activities and jobs
