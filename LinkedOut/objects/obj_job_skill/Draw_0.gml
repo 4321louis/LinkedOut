@@ -24,7 +24,6 @@ var currentx = 638;
 var currenty =	497;
 for (var i = 0; i < 5; i++) {
 	if (global.proflove[i] != 0) {
-		instance_create(currentx, currenty, card[i]);
 		draw_sprite_ext(obj_info.profsprite[i], image_index, currentx+12, currenty+13, 55/67, 55/67, 0, c_white, 1);
 		
 		draw_set_font(fnt_text1);

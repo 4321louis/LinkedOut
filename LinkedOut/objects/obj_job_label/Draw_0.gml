@@ -18,7 +18,6 @@ var namex = currentx + 40;
 for (var i = 0; i < 12; i++) {
 	if (global.openjobs[i] != 0) {
 		draw_set_halign(fa_left);
-		instance_create(currentx, currenty, card[i]);
 		// draw_sprite(obj_info.profsprite[i], image_index, 163, currenty+26);
 		
 		draw_set_font(fnt_h2);

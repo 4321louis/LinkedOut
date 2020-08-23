@@ -13,7 +13,6 @@ var namex = currentx + 103;
 for (var i = 0; i < 5; i++) {
 	if (global.proflove[i] != 0) {
 		draw_set_halign(fa_left);
-		instance_create(currentx, currenty, card[i]);
 		draw_sprite(obj_info.profsprite[i], image_index, 163, currenty+26);
 		
 			heartx = currentx + 464;
