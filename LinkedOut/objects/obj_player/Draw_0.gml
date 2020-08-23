@@ -15,14 +15,15 @@ for (var i = 0;i<=4;i+=2) {
 }
 draw_line_width_color(x,y,boss.x,boss.y,5,colour,c_lime);
 draw_text(room_width*7/8,0,gained_reputation);
+draw_text(room_width*7/8,50,alarm[0]);
 
 gained_reputation += min(repCoefficient*power(dist*0.01,-1.1),0.1)
 
 
 //win
-var Dhelper = 1;
-if (global.selectedProfessional == obj_info.PROFESSIONALS.B) Dhelper=0.8;
-if (boss.requiredRep*Dhelper < gained_reputation) {
+var Bhelper = 1;
+if (global.selectedProfessional == obj_info.PROFESSIONALS.B) Bhelper=0.8;
+if (boss.requiredRep*Bhelper < gained_reputation) {
 	global.openact[global.selectedLevel -1] = 1;
 	global.openjobs[global.selectedLevel -1] = 0;
 	room_goto(rm_job);

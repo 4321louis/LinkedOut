@@ -1,4 +1,4 @@
-if keyboard_check(ord(" ")&&alarm[0]<=0) {
+if (keyboard_check(vk_space)&&alarm[0]<=0) {
 	#region activate power
 	switch global.selectedProfessional {
 		case obj_info.PROFESSIONALS.A:
@@ -8,17 +8,15 @@ if keyboard_check(ord(" ")&&alarm[0]<=0) {
 		case obj_info.PROFESSIONALS.C:
 		break;
 		case obj_info.PROFESSIONALS.D:
-			sped = sped*100;
+			sped = sped*14;
 		break;
 		case obj_info.PROFESSIONALS.E:
 			while(0 < instance_number(obj_bullet)) {
-				with(instance_find(obj_bullet,0))  {
-					x=-100;
-					y=-100;
-				}
+				instance_destroy(instance_find(obj_bullet,0));
 			}
 		break;
 	}
+	alarm[0]=10*room_speed
 	#endregion
 }
 if keyboard_check(ord("W"))||keyboard_check(vk_up) y-=sped;
